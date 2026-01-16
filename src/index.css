@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Lusitana:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Lusitana:wght@400;700&display=swap');
 
 @theme {
   --color-pale-blue: #F8F9FB;

@@ -1,7 +1,14 @@
-import landingPageData from "../../data/landingPage";
+type HeroSectionProps = {
+  heroSection: {
+    title: string;
+    subtitle: string;
+    description: string;
+    buttons: { name: string; class: string }[];
+  };
+};
 
-const HeroSection = () => {
-  const { title, subtitle, description, buttons } = landingPageData.heroSection;
+const HeroSection = ({ heroSection }: HeroSectionProps) => {
+  const { title, subtitle, description, buttons } = heroSection;
   return (
     <section
       id="hero-section"
@@ -22,11 +29,8 @@ const HeroSection = () => {
         <div className="flex items-center justify-center space-x-4">
           {buttons.map((buttonText, index) => {
             return (
-              <button
-                key={index}
-                className="px-8 py-3 bg-deep-blue text-white rounded-md hover:bg-bright-blue transition-colors font-medium text-lg"
-              >
-                {buttonText}
+              <button key={index} className={buttonText.class}>
+                {buttonText.name}
               </button>
             );
           })}
