@@ -53,6 +53,37 @@ const landingPageData = {
         }
       ]
     }
+  },
+   "whyTucSection": {
+    "title": "Why TUC Exists",
+    "problems": [
+      {
+        "title": "The Coordination Problem",
+        "description": "Talented people have ideas. Organizations need those ideas. But the gap between having an idea and seeing it implemented is vast. Most suggestions vanish into email threads, Slack channels, or meeting notes. Good thinking gets lost not because it lacks merit, but because there's no reliable system to capture, evaluate, and act on it."
+      },
+      {
+        "title": "The Fragmentation Problem",
+        "description": "Projects are scattered across tools, platforms, and organizations. Contributors work in isolation. Duplication is rampant. There's no shared infrastructure for collaboration that respects autonomy while enabling coordination. We're all reinventing wheels because we can't see what others have already built."
+      },
+      {
+        "title": "The Trust Problem",
+        "description": "People hesitate to contribute because they've been burned before. Their work was used without credit. Their ideas were ignored or stolen. Their time was wasted. Without transparent systems that protect contributors and track attribution, collaboration remains risky and extractive."
+      }
+    ],
+    "quote": {
+      "text": "Creativity is abundant. Coordination is scarce. We don't lack good ideas—we lack systems that help those ideas find the right people, resources, and momentum."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "TUC exists to solve these problems through transparent infrastructure. We're building a system where:",
+      "points": [
+        "Ideas are captured and evaluated systematically",
+        "Projects can be discovered and remixed",
+        "Contributors receive credit and visibility",
+        "Coordination happens without centralized control",
+        "Value flows to those who create it"
+      ]
+    }
   }
 
 }
