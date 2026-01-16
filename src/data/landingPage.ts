@@ -84,7 +84,71 @@ const landingPageData = {
         "Value flows to those who create it"
       ]
     }
+  },
+  
+  "whatExistsSection": {
+    "title": "What Already Exists",
+    "subtitle": "These are the foundational components we've built so far. Each represents a piece of the larger system, actively being developed and refined.",
+    "components": [
+      {
+        "name": "Suggestion Box",
+        "status": "MVP",
+        "statusType": "active",
+        "description": "A structured system for capturing, organizing, and evaluating ideas from anyone in the community.",
+        "progressLabel": "Active Development",
+        "icon": "fa-circle-check",
+        "iconColor": "dark-cyan"
+      },
+      {
+        "name": "Feedback Box",
+        "status": "Concept",
+        "statusType": "concept",
+        "description": "Transparent feedback collection that helps projects improve while maintaining contributor privacy.",
+        "progressLabel": "In Design Phase",
+        "icon": "fa-circle-dot",
+        "iconColor": "medium-gray"
+      },
+      {
+        "name": "Top10 System",
+        "status": "Concept",
+        "statusType": "concept",
+        "description": "Prioritization framework that surfaces the most valuable ideas through community evaluation.",
+        "progressLabel": "In Design Phase",
+        "icon": "fa-circle-dot",
+        "iconColor": "medium-gray"
+      },
+      {
+        "name": "Smart Task Logic",
+        "status": "Building",
+        "statusType": "building",
+        "description": "Intelligent task management that adapts to project needs and contributor availability.",
+        "progressLabel": "Early Stage",
+        "icon": "fa-circle-half-stroke",
+        "iconColor": "deep-blue"
+      },
+      {
+        "name": "AlphaBeta Design",
+        "status": "Research",
+        "statusType": "research",
+        "description": "Design system and component library built for clarity, accessibility, and long-term maintenance.",
+        "progressLabel": "Exploration Phase",
+        "icon": "fa-flask",
+        "iconColor": "medium-gray"
+      },
+      {
+        "name": "CloserLook Framework",
+        "status": "Research",
+        "statusType": "research",
+        "description": "Analytical tools for understanding project impact, contributor patterns, and system health.",
+        "progressLabel": "Exploration Phase",
+        "icon": "fa-flask",
+        "iconColor": "medium-gray"
+      }
+    ],
+    "footerNote": "The system is actively being built. These components will evolve as we learn what works and what doesn't. Transparency means showing the work in progress, not just the finished product."
   }
+
+
 
 }
 
