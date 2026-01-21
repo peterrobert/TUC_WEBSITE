@@ -279,9 +279,107 @@ const landingPageData = {
       "The system is designed to work with whatever capacity people actually have—not the capacity we wish they had. This means slower progress, but it also means sustainable progress."
     ]
   }
+  },
+  "whatMakesDifferentData":{
+    "sectionTitle": "What Makes TUC Different",
+
+  "sectionSubtitle":
+    "These aren't aspirations or marketing copy. They're architectural decisions baked into how the system works.",
+
+  "items": [
+    {
+        "title": "No Extraction",
+      "description":
+        "Value flows to contributors, not investors. The system is designed to support creators, not extract from them.",
+    },
+    {
+        "title": "No Fake Scale",
+      "description":
+        "We grow at the pace our capacity allows. No artificial growth targets or pressure to scale before we're ready.",
+    },
+    {
+        "title": "Transparency by Default",
+      "description":
+        "Decisions, changes, and reasoning are documented and visible. No hidden agendas or opaque processes.",
+    },
+    {
+        "title": "Remixability",
+      "description":
+        "Projects and components can be adapted and reused. We're building infrastructure, not walled gardens.",
+    },
+    {
+        "title": "Measurable Impact",
+      "description":
+        "Success is defined by real outcomes, not vanity metrics or user counts.",
+    },
+    {
+        "title": "Long-term Thinking",
+      "description":
+        "Built for decades, not quarters. Decisions prioritize sustainability over short-term gains.",
+    },
+  ],
+
+  "highlightTitle": "Anti-Corruption by Design",
+
+  "highlightDescription":
+    "These principles aren't enforced through goodwill or policy documents. They're embedded in the system's architecture. You can't extract value you didn't create because attribution is tracked. You can't hide decisions because transparency is the default. You can't scale irresponsibly because the system requires genuine capacity. The structure prevents corruption, not just discourages it.",
+  },
+  "whatMakesPossibleData": {
+    "section_title": "What TUC Makes Possible",
+
+  "section_subtitle":
+    "When coordination friction decreases and trust increases, new patterns of collaboration become viable.",
+
+  "items": [
+    {
+      "title": "Aggregate Ideas",
+      "description":
+        "Collect thinking from across organizations, disciplines, and contexts. Surface patterns and connections that would otherwise remain invisible.",
+      "icon": "fa-layer-group",
+      "icon_color": "text-deep-blue",
+    },
+    {
+      "title": "Develop Projects",
+      "description":
+        "Move from concept to execution with clear pathways, transparent progress, and proper attribution for all contributors.",
+      "icon": "fa-rocket",
+      "icon_color": "text-deep-blue",
+    },
+    {
+      "title": "Distribute Opportunity",
+      "description":
+        "Connect people with projects that match their skills and interests. Make contribution accessible regardless of organizational affiliation.",
+      "icon": "fa-hands-helping",
+      "icon_color": "text-deep-blue",
+    },
+    {
+      "title": "Promote Valuable Work",
+      "description":
+        "Ensure quality contributions get visibility. Recognition flows to those who create value, not just those who control platforms.",
+      "icon": "fa-bullhorn",
+      "icon_color": "text-dark-cyan",
+    },
+    {
+      "title": "Simplify Collaboration",
+      "description":
+        "Reduce coordination overhead. Clear structures and transparent processes make it easier to work together effectively.",
+      "icon": "fa-puzzle-piece",
+      "icon_color": "text-dark-cyan",
+    },
+    {
+      "title": "Build Resilience",
+      "description":
+        "Create systems that can adapt and survive. Distributed collaboration is more robust than centralized control.",
+      "icon": "fa-shield-halved",
+      "icon_color": "text-dark-cyan",
+    },
+  ],
+  "highlight_title": "Enable Meaningful Change",
+  "highlight_description":
+    "When good ideas can find resources, when contributors receive credit, and when coordination costs decrease, meaningful change becomes more achievable. Not guaranteed, but more possible than before.",
+  "highlight_icon": "fa-seedling",
+  "highlight_icon_color": "text-dark-cyan",
   }
-
-
 
 }
 

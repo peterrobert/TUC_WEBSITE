@@ -132,7 +132,7 @@ const HowTucWorkSection = ({ howTucWorksSection }: HowTucWorkSection) => {
             >
               <div className="flex items-start space-x-4">
                 <div
-                  className={`w-10 h-10 sm:w-12 sm:h-12 bg-${stage.color} rounded-md flex items-center justify-center flex-shrink-0`}
+                  className={`w-10 h-10 sm:w-12 sm:h-12 bg-${stage.color} rounded-md flex items-center justify-center shrink-0`}
                 >
                   <i
                     className={`fa-solid ${stage.icon} text-white text-sm sm:text-base`}
