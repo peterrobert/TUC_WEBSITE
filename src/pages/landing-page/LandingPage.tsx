@@ -18,7 +18,7 @@ const LandingPage = () => {
     whatExistsSection,
     howTucWorksSection,
     whoIsBuildingTucSection,
-    whatMakesDifferentData,
+    // whatMakesDifferentData,
     whatMakesPossibleData,
   } = landingPageData;
   return (
@@ -30,7 +30,7 @@ const LandingPage = () => {
       <HowTucWorkSection howTucWorksSection={howTucWorksSection} />
       <WhoIsBuildingSection whoIsBuildingSection={whoIsBuildingTucSection} />
       <WhatMakesDifferentSection
-        whatMakesDifferentData={whatMakesDifferentData}
+      // whatMakesDifferentData={whatMakesDifferentData}
       />
       <WhatMakesPossibleSection whatMakesPossibleData={whatMakesPossibleData} />
       <Footer footerData={footerData} />
