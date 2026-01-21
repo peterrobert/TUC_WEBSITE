@@ -9,27 +9,38 @@ type HeroSectionProps = {
 
 const HeroSection = ({ heroSection }: HeroSectionProps) => {
   const { title, subtitle, description, buttons } = heroSection;
+
   return (
     <section
       id="hero-section"
-      className="h-[680px] flex items-center justify-center bg-white border-b border-cool-gray"
+      className="min-h-[520px] sm:min-h-[600px] lg:min-h-[680px] flex items-center justify-center bg-white border-b border-cool-gray px-4 sm:px-6 lg:px-8"
     >
-      <div className="max-w-4xl mx-auto px-8 text-center">
-        <h1 className="text-6xl font-serif font-bold text-dark-gray mb-6 leading-tight">
+      <div className="max-w-4xl mx-auto text-center">
+        {/* TITLE */}
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-dark-gray mb-4 sm:mb-6 leading-tight">
           {title}
         </h1>
-        <p className="text-2xl text-medium-gray font-serif mb-8 leading-relaxed">
+
+        {/* SUBTITLE */}
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-medium-gray font-serif mb-6 sm:mb-8 leading-relaxed">
           {subtitle}
         </p>
-        <div className="max-w-3xl mx-auto mb-10">
-          <p className="text-lg text-medium-gray leading-relaxed">
+
+        {/* DESCRIPTION */}
+        <div className="max-w-3xl mx-auto mb-8 sm:mb-10">
+          <p className="text-sm sm:text-base lg:text-lg text-medium-gray leading-relaxed">
             {description}
           </p>
         </div>
-        <div className="flex items-center justify-center space-x-4">
+
+        {/* BUTTONS */}
+        <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-3 sm:gap-4">
           {buttons.map((buttonText, index) => {
             return (
-              <button key={index} className={buttonText.class}>
+              <button
+                key={index}
+                className={`${buttonText.class} w-full sm:w-auto`}
+              >
                 {buttonText.name}
               </button>
             );

@@ -146,6 +146,139 @@ const landingPageData = {
       }
     ],
     "footerNote": "The system is actively being built. These components will evolve as we learn what works and what doesn't. Transparency means showing the work in progress, not just the finished product."
+  },
+  "howTucWorksSection": {
+    "header": {
+    "title": "How TUC Works",
+    "subtitle": "The TUC pipeline transforms ideas into impact through a series of transparent, structured stages. Each stage adds value, filters quality, and maintains attribution."
+  },
+  "pipelineFlow": {
+    "primaryStages": [
+      {
+        "id": "ideas",
+        "label": "Ideas",
+        "icon": "fa-lightbulb",
+        "color": "deep-blue"
+      },
+      {
+        "id": "suggestions",
+        "label": "Suggestions",
+        "icon": "fa-inbox",
+        "color": "deep-blue"
+      },
+      {
+        "id": "top10",
+        "label": "Top10",
+        "icon": "fa-trophy",
+        "color": "deep-blue"
+      },
+      {
+        "id": "projects",
+        "label": "Projects",
+        "icon": "fa-folder-open",
+        "color": "deep-blue"
+      }
+    ],
+    "secondaryStages": [
+      {
+        "id": "tasks",
+        "label": "Tasks",
+        "icon": "fa-list-check",
+        "color": "dark-cyan"
+      },
+      {
+        "id": "results",
+        "label": "Results",
+        "icon": "fa-chart-line",
+        "color": "dark-cyan"
+      },
+      {
+        "id": "ripple-effects",
+        "label": "Ripple Effects",
+        "icon": "fa-water",
+        "color": "dark-cyan"
+      }
+    ]
+  },
+  "stageDescriptions": [
+    {
+      "id": "ideas",
+      "title": "Ideas",
+      "description": "Raw thoughts, observations, and possibilities. Anyone can contribute.",
+      "icon": "fa-lightbulb",
+      "color": "deep-blue"
+    },
+    {
+      "id": "suggestions",
+      "title": "Suggestions",
+      "description": "Structured proposals with context, rationale, and initial evaluation.",
+      "icon": "fa-inbox",
+      "color": "deep-blue"
+    },
+    {
+      "id": "top10",
+      "title": "Top10",
+      "description": "Prioritized list of the most valuable suggestions ready for development.",
+      "icon": "fa-trophy",
+      "color": "deep-blue"
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "description": "Active initiatives with teams, timelines, and clear objectives.",
+      "icon": "fa-folder-open",
+      "color": "deep-blue"
+    },
+    {
+      "id": "tasks",
+      "title": "Tasks",
+      "description": "Specific actions that move projects forward, assigned and tracked.",
+      "icon": "fa-list-check",
+      "color": "dark-cyan"
+    },
+    {
+      "id": "results",
+      "title": "Results",
+      "description": "Measurable outcomes that demonstrate value and impact.",
+      "icon": "fa-chart-line",
+      "color": "dark-cyan"
+    },
+    {
+      "id": "ripple-effects",
+      "title": "Ripple Effects",
+      "description": "Secondary and tertiary impacts that extend beyond the original project, creating lasting value.",
+      "icon": "fa-water",
+      "color": "dark-cyan"
+    }
+  ],
+  "closingStatement": "This pipeline reduces waste by ensuring ideas are evaluated before resources are committed. It moves work from intention to execution systematically, maintaining transparency and attribution at every stage."
+  },
+  "whoIsBuildingTucSection": {
+  "sectionTitle": "Who Is Building TUC",
+  "sectionSubtitle": "A small team working deliberately, focused on building something sustainable rather than something fast.",
+  "teamMembers": [
+    {
+      "name": "Jeff",
+      "role": "Founder / Architect",
+      "image": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
+      "description": "Responsible for system design, strategic direction, and ensuring TUC remains aligned with its core principles. Jeff focuses on the big picture—how the pieces fit together and what problems we're actually solving.",
+      "email": "jeff@tuc.system"
+    },
+    {
+      "name": "Peter",
+      "role": "DevOps / Platform Builder",
+      "image": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-4.jpg",
+      "description": "Handles infrastructure, deployment, and technical implementation. Peter translates system concepts into working code and maintains the platform's reliability and performance.",
+      "email": "peter@tuc.system"
+    }
+  ],
+  "cultureSection": {
+    "title": "A Culture of Optional Contribution",
+    "paragraphs": [
+      "We're not building a startup culture. There's no pressure to hustle, no expectation of unpaid labor disguised as opportunity, and no artificial urgency. Contribution is genuinely optional. If you want to help, great. If you don't, that's fine too.",
+      "The system is designed to work with whatever capacity people actually have—not the capacity we wish they had. This means slower progress, but it also means sustainable progress."
+    ]
+  }
   }
 
 
