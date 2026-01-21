@@ -13,7 +13,10 @@ type WhatMakesDifferentSectionData = {
   };
 };
 
-const WhatMakesDifferentSection = ({ data }: WhatMakesDifferentSectionData) => {
+const WhatMakesDifferentSection = ({
+  whatMakesDifferentData,
+}: WhatMakesDifferentSectionData) => {
+  console.log(whatMakesDifferentData);
   return (
     <section
       id="what-makes-different-section"

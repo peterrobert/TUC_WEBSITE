@@ -25,7 +25,9 @@ const LandingPage = () => {
       <WhatExistsSection whatExistsSection={whatExistsSection} />
       <HowTucWorkSection howTucWorksSection={howTucWorksSection} />
       <WhoIsBuildingSection whoIsBuildingSection={whoIsBuildingTucSection} />
-      <WhatMakesDifferentSection data={whatMakesDifferentData} />
+      <WhatMakesDifferentSection
+        whatMakesDifferentData={whatMakesDifferentData}
+      />
     </>
   );
 };

@@ -281,7 +281,7 @@ const landingPageData = {
   }
   },
   "whatMakesDifferentData":{
-    " sectionTitle": "What Makes TUC Different",
+    "sectionTitle": "What Makes TUC Different",
 
   "sectionSubtitle":
     "These aren't aspirations or marketing copy. They're architectural decisions baked into how the system works.",
