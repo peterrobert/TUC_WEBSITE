@@ -1,6 +1,5 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Lusitana:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Actor&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Lusitana:wght@400;700&display=swap');
+
 
 @theme {
   --color-pale-blue: #F8F9FB;
@@ -12,6 +11,6 @@
   --color-cool-gray: #D1D5DB;
   --color-bright-blue: #274DB2;
 
-  --font-serif: "Crimson Pro", serif;
-  --font-sans: "Inter", sans-serif;
+  --font-serif: "ABeeZee", sans-serif;
+  --font-sans: "Lato", sans-serif;
 }
