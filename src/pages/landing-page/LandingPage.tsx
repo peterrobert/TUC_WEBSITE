@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection";
 import HowTucWorkSection from "./HowTucWorkSection";
 import WhatExistsSection from "./WhatExistsSection";
 import WhatIsTucSection from "./WhatIsTucSection";
+import WhoIsBuildingSection from "./WhoIsBuildingSection";
 import WhyTucSection from "./WhyTucSection";
 
 const LandingPage = () => {
@@ -12,6 +13,7 @@ const LandingPage = () => {
     whyTucSection,
     whatExistsSection,
     howTucWorksSection,
+    whoIsBuildingTucSection,
   } = landingPageData;
   return (
     <>
@@ -20,6 +22,7 @@ const LandingPage = () => {
       <WhyTucSection whyTucSection={whyTucSection} />
       <WhatExistsSection whatExistsSection={whatExistsSection} />
       <HowTucWorkSection howTucWorksSection={howTucWorksSection} />
+      <WhoIsBuildingSection whoIsBuildingSection={whoIsBuildingTucSection} />
     </>
   );
 };

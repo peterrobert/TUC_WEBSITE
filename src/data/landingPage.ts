@@ -252,6 +252,33 @@ const landingPageData = {
     }
   ],
   "closingStatement": "This pipeline reduces waste by ensuring ideas are evaluated before resources are committed. It moves work from intention to execution systematically, maintaining transparency and attribution at every stage."
+  },
+  "whoIsBuildingTucSection": {
+  "sectionTitle": "Who Is Building TUC",
+  "sectionSubtitle": "A small team working deliberately, focused on building something sustainable rather than something fast.",
+  "teamMembers": [
+    {
+      "name": "Jeff",
+      "role": "Founder / Architect",
+      "image": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
+      "description": "Responsible for system design, strategic direction, and ensuring TUC remains aligned with its core principles. Jeff focuses on the big picture—how the pieces fit together and what problems we're actually solving.",
+      "email": "jeff@tuc.system"
+    },
+    {
+      "name": "Peter",
+      "role": "DevOps / Platform Builder",
+      "image": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-4.jpg",
+      "description": "Handles infrastructure, deployment, and technical implementation. Peter translates system concepts into working code and maintains the platform's reliability and performance.",
+      "email": "peter@tuc.system"
+    }
+  ],
+  "cultureSection": {
+    "title": "A Culture of Optional Contribution",
+    "paragraphs": [
+      "We're not building a startup culture. There's no pressure to hustle, no expectation of unpaid labor disguised as opportunity, and no artificial urgency. Contribution is genuinely optional. If you want to help, great. If you don't, that's fine too.",
+      "The system is designed to work with whatever capacity people actually have—not the capacity we wish they had. This means slower progress, but it also means sustainable progress."
+    ]
+  }
   }
 
 
