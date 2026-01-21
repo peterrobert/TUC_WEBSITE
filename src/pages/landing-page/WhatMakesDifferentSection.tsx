@@ -1,21 +1,19 @@
-type DifferenceItem = {
-  title: string;
-  description: string;
-};
+// type DifferenceItem = {
+//   title: string;
+//   description: string;
+// };
 
-type WhatMakesDifferentSectionData = {
-  whatMakesDifferentData: {
-    sectionTitle: string;
-    sectionSubtitle: string;
-    highlightTitle: string;
-    highlightDescription: string;
-    items: DifferenceItem[];
-  };
-};
+// type WhatMakesDifferentSectionData = {
+//   whatMakesDifferentData: {
+//     sectionTitle: string;
+//     sectionSubtitle: string;
+//     highlightTitle: string;
+//     highlightDescription: string;
+//     items: DifferenceItem[];
+//   };
+// };
 
-const WhatMakesDifferentSection = ({
-  whatMakesDifferentData,
-}: WhatMakesDifferentSectionData) => {
+const WhatMakesDifferentSection = () => {
   return (
     <section
       id="what-makes-different-section"
