@@ -323,6 +323,62 @@ const landingPageData = {
 
   "highlightDescription":
     "These principles aren't enforced through goodwill or policy documents. They're embedded in the system's architecture. You can't extract value you didn't create because attribution is tracked. You can't hide decisions because transparency is the default. You can't scale irresponsibly because the system requires genuine capacity. The structure prevents corruption, not just discourages it.",
+  },
+  "whatMakesPossibleData": {
+    "section_title": "What TUC Makes Possible",
+
+  "section_subtitle":
+    "When coordination friction decreases and trust increases, new patterns of collaboration become viable.",
+
+  "items": [
+    {
+      "title": "Aggregate Ideas",
+      "description":
+        "Collect thinking from across organizations, disciplines, and contexts. Surface patterns and connections that would otherwise remain invisible.",
+      "icon": "fa-layer-group",
+      "icon_color": "text-deep-blue",
+    },
+    {
+      "title": "Develop Projects",
+      "description":
+        "Move from concept to execution with clear pathways, transparent progress, and proper attribution for all contributors.",
+      "icon": "fa-rocket",
+      "icon_color": "text-deep-blue",
+    },
+    {
+      "title": "Distribute Opportunity",
+      "description":
+        "Connect people with projects that match their skills and interests. Make contribution accessible regardless of organizational affiliation.",
+      "icon": "fa-hands-helping",
+      "icon_color": "text-deep-blue",
+    },
+    {
+      "title": "Promote Valuable Work",
+      "description":
+        "Ensure quality contributions get visibility. Recognition flows to those who create value, not just those who control platforms.",
+      "icon": "fa-bullhorn",
+      "icon_color": "text-dark-cyan",
+    },
+    {
+      "title": "Simplify Collaboration",
+      "description":
+        "Reduce coordination overhead. Clear structures and transparent processes make it easier to work together effectively.",
+      "icon": "fa-puzzle-piece",
+      "icon_color": "text-dark-cyan",
+    },
+    {
+      "title": "Build Resilience",
+      "description":
+        "Create systems that can adapt and survive. Distributed collaboration is more robust than centralized control.",
+      "icon": "fa-shield-halved",
+      "icon_color": "text-dark-cyan",
+    },
+  ],
+  "highlight_title": "Enable Meaningful Change",
+  "highlight_description":
+    "When good ideas can find resources, when contributors receive credit, and when coordination costs decrease, meaningful change becomes more achievable. Not guaranteed, but more possible than before.",
+  "highlight_icon": "fa-seedling",
+  "highlight_icon_color": "text-dark-cyan",
   }
 
 }
