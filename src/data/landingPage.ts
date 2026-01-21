@@ -146,6 +146,112 @@ const landingPageData = {
       }
     ],
     "footerNote": "The system is actively being built. These components will evolve as we learn what works and what doesn't. Transparency means showing the work in progress, not just the finished product."
+  },
+  "howTucWorksSection": {
+    "header": {
+    "title": "How TUC Works",
+    "subtitle": "The TUC pipeline transforms ideas into impact through a series of transparent, structured stages. Each stage adds value, filters quality, and maintains attribution."
+  },
+  "pipelineFlow": {
+    "primaryStages": [
+      {
+        "id": "ideas",
+        "label": "Ideas",
+        "icon": "fa-lightbulb",
+        "color": "deep-blue"
+      },
+      {
+        "id": "suggestions",
+        "label": "Suggestions",
+        "icon": "fa-inbox",
+        "color": "deep-blue"
+      },
+      {
+        "id": "top10",
+        "label": "Top10",
+        "icon": "fa-trophy",
+        "color": "deep-blue"
+      },
+      {
+        "id": "projects",
+        "label": "Projects",
+        "icon": "fa-folder-open",
+        "color": "deep-blue"
+      }
+    ],
+    "secondaryStages": [
+      {
+        "id": "tasks",
+        "label": "Tasks",
+        "icon": "fa-list-check",
+        "color": "dark-cyan"
+      },
+      {
+        "id": "results",
+        "label": "Results",
+        "icon": "fa-chart-line",
+        "color": "dark-cyan"
+      },
+      {
+        "id": "ripple-effects",
+        "label": "Ripple Effects",
+        "icon": "fa-water",
+        "color": "dark-cyan"
+      }
+    ]
+  },
+  "stageDescriptions": [
+    {
+      "id": "ideas",
+      "title": "Ideas",
+      "description": "Raw thoughts, observations, and possibilities. Anyone can contribute.",
+      "icon": "fa-lightbulb",
+      "color": "deep-blue"
+    },
+    {
+      "id": "suggestions",
+      "title": "Suggestions",
+      "description": "Structured proposals with context, rationale, and initial evaluation.",
+      "icon": "fa-inbox",
+      "color": "deep-blue"
+    },
+    {
+      "id": "top10",
+      "title": "Top10",
+      "description": "Prioritized list of the most valuable suggestions ready for development.",
+      "icon": "fa-trophy",
+      "color": "deep-blue"
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "description": "Active initiatives with teams, timelines, and clear objectives.",
+      "icon": "fa-folder-open",
+      "color": "deep-blue"
+    },
+    {
+      "id": "tasks",
+      "title": "Tasks",
+      "description": "Specific actions that move projects forward, assigned and tracked.",
+      "icon": "fa-list-check",
+      "color": "dark-cyan"
+    },
+    {
+      "id": "results",
+      "title": "Results",
+      "description": "Measurable outcomes that demonstrate value and impact.",
+      "icon": "fa-chart-line",
+      "color": "dark-cyan"
+    },
+    {
+      "id": "ripple-effects",
+      "title": "Ripple Effects",
+      "description": "Secondary and tertiary impacts that extend beyond the original project, creating lasting value.",
+      "icon": "fa-water",
+      "color": "dark-cyan"
+    }
+  ],
+  "closingStatement": "This pipeline reduces waste by ensuring ideas are evaluated before resources are committed. It moves work from intention to execution systematically, maintaining transparency and attribution at every stage."
   }
 
 
