@@ -1,3 +1,4 @@
+import { footerData } from "../../data/footerData";
 import landingPageData from "../../data/landingPage";
 import Footer from "../../layouts/Footer";
 import HeroSection from "./HeroSection";
@@ -32,7 +33,7 @@ const LandingPage = () => {
         whatMakesDifferentData={whatMakesDifferentData}
       />
       <WhatMakesPossibleSection whatMakesPossibleData={whatMakesPossibleData} />
-      <Footer />
+      <Footer footerData={footerData} />
     </>
   );
 };
