@@ -279,9 +279,51 @@ const landingPageData = {
       "The system is designed to work with whatever capacity people actually have—not the capacity we wish they had. This means slower progress, but it also means sustainable progress."
     ]
   }
+  },
+  "whatMakesDifferentData":{
+    " sectionTitle": "What Makes TUC Different",
+
+  "sectionSubtitle":
+    "These aren't aspirations or marketing copy. They're architectural decisions baked into how the system works.",
+
+  "items": [
+    {
+        "title": "No Extraction",
+      "description":
+        "Value flows to contributors, not investors. The system is designed to support creators, not extract from them.",
+    },
+    {
+        "title": "No Fake Scale",
+      "description":
+        "We grow at the pace our capacity allows. No artificial growth targets or pressure to scale before we're ready.",
+    },
+    {
+        "title": "Transparency by Default",
+      "description":
+        "Decisions, changes, and reasoning are documented and visible. No hidden agendas or opaque processes.",
+    },
+    {
+        "title": "Remixability",
+      "description":
+        "Projects and components can be adapted and reused. We're building infrastructure, not walled gardens.",
+    },
+    {
+        "title": "Measurable Impact",
+      "description":
+        "Success is defined by real outcomes, not vanity metrics or user counts.",
+    },
+    {
+        "title": "Long-term Thinking",
+      "description":
+        "Built for decades, not quarters. Decisions prioritize sustainability over short-term gains.",
+    },
+  ],
+
+  "highlightTitle": "Anti-Corruption by Design",
+
+  "highlightDescription":
+    "These principles aren't enforced through goodwill or policy documents. They're embedded in the system's architecture. You can't extract value you didn't create because attribution is tracked. You can't hide decisions because transparency is the default. You can't scale irresponsibly because the system requires genuine capacity. The structure prevents corruption, not just discourages it.",
   }
-
-
 
 }
 
