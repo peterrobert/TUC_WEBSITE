@@ -27,7 +27,7 @@ const WhyTucSection = ({ whyTucSection }: WhyTucSectionProps) => {
           <h3 className="text-2xl font-serif font-bold text-dark-gray mb-4">
             {problem.title}
           </h3>
-          <p className="text-lg text-medium-gray leading-relaxed">
+          <p className="text-lg text-medium-gray leading-relaxed whitespace-pre-line">
             {problem.description}
           </p>
         </div>

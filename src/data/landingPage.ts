@@ -1,11 +1,10 @@
 const landingPageData = {
   "heroSection": {
     "title": "TUC – The Ultimate Collaboration",
-    "subtitle": "A system for helping people, ideas, and projects connect, grow, and become useful to the world.",
-    "description": "TUC is built by a small team committed to integrity over speed. We're not racing toward funding milestones or chasing growth metrics. This is a patient effort to create something genuinely useful—a collaboration system designed to reduce friction, increase transparency, and help meaningful work find its way into the world.",
+    "subtitle": "A new way of thinking that connects people, ideas, and projects, reimagining ‘think global, act local’ to reduce fragmentation, strengthen collaboration, and create real, measurable change",
+    "description": "TUC is being built slowly and carefully by a small team who believe real change comes from honesty, collaboration, and doing things right.",
     "buttons": [
-     { name: "Explore the System", class: "px-8 py-3 bg-deep-blue text-white rounded-md hover:bg-bright-blue transition-colors font-medium text-lg"},
-      { name: "How It Works", class: "px-8 py-3 border-2 border-deep-blue text-deep-blue rounded-md hover:bg-deep-blue hover:text-white transition-colors font-medium text-lg" }
+      { name: "Explore the System", class: "px-8 py-3 border-2 border-deep-blue text-deep-blue cursor-pointer rounded-md hover:bg-deep-blue hover:text-white transition-colors font-medium text-lg" }
     ]
   },
   "whatIsTucSection": {
@@ -55,19 +54,36 @@ const landingPageData = {
     }
   },
    "whyTucSection": {
-    "title": "Why TUC Exists",
+    "title": "The Problems TUC Exists to Solve",
     "problems": [
       {
-        "title": "The Coordination Problem",
-        "description": "Talented people have ideas. Organizations need those ideas. But the gap between having an idea and seeing it implemented is vast. Most suggestions vanish into email threads, Slack channels, or meeting notes. Good thinking gets lost not because it lacks merit, but because there's no reliable system to capture, evaluate, and act on it."
+        "title": "Fragmentation",
+        "description": "Ideas live in separate tools, conversations, and documents that never connect into action."
       },
       {
-        "title": "The Fragmentation Problem",
-        "description": "Projects are scattered across tools, platforms, and organizations. Contributors work in isolation. Duplication is rampant. There's no shared infrastructure for collaboration that respects autonomy while enabling coordination. We're all reinventing wheels because we can't see what others have already built."
+        "title": "Invisible Progress",
+        "description": "People can’t see what is moving, what is stuck, or where help is needed."
       },
       {
-        "title": "The Trust Problem",
-        "description": "People hesitate to contribute because they've been burned before. Their work was used without credit. Their ideas were ignored or stolen. Their time was wasted. Without transparent systems that protect contributors and track attribution, collaboration remains risky and extractive."
+        "title": "Lost Credit",
+        "description": "Contributions disappear, reducing trust, motivation, and long-term participation."
+      },
+      {
+        "title": "Unclear Next Steps",
+        "description": "Even when people want to help, they don’t know what to do next."
+      },
+      {
+        "title": "Duplicated Effort",
+        "description": "The same problems are solved repeatedly because prior work isn’t discoverable."
+      },
+      
+      {
+        "title": "Coordination Overhead",
+        "description": " More energy goes into organizing than building.\n TUC exists to replace this fragility with structure that is visible, fair, and regenerative."
+      },
+      {
+        "title": "Lost Potential",
+        "description":"Because of these problems, enormous value never becomes real.\n Ideas stall.\nPeople disengage.\nCommunities remain under-resourced.\nSolutions that work once fail to spread.\n\nWhat is wasted:\nHuman creativity\nTime and effort\nLocal knowledge\nTrust and motivation\nOpportunities for collective growth\n\nWhy it matters:\nLost potential is not abstract. It shapes livelihoods, progress, and possibility.\nTUC exists to reduce this waste by making coordination reliable and reusable."
       }
     ],
     "quote": {
