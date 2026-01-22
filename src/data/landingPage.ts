@@ -84,7 +84,12 @@ const landingPageData = {
       {
         "title": "Lost Potential",
         "description":"Because of these problems, enormous value never becomes real.\n Ideas stall.\nPeople disengage.\nCommunities remain under-resourced.\nSolutions that work once fail to spread.\n\nWhat is wasted:\nHuman creativity\nTime and effort\nLocal knowledge\nTrust and motivation\nOpportunities for collective growth\n\nWhy it matters:\nLost potential is not abstract. It shapes livelihoods, progress, and possibility.\nTUC exists to reduce this waste by making coordination reliable and reusable."
+      },
+      {
+        "title": "In Plain Language (Human Grounding)",
+        "description": "TUC is a place where helpful work does not disappear.\n\nIt transforms \"Someone should do something\" into \"Here is what is happening, who is involved, and what comes next.\"\n\nIt gives strong ideas a permanent home — where they can grow, evolve, and be carried forward by many contributors instead of fading into silence."
       }
+      
     ],
     "quote": {
       "text": "Creativity is abundant. Coordination is scarce. We don't lack good ideas—we lack systems that help those ideas find the right people, resources, and momentum."

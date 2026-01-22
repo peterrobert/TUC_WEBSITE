@@ -1,7 +1,39 @@
 import { useState } from "react";
 
+const navigation = [
+  {
+    label: "Overview",
+    path: "/",
+  },
+
+  {
+    label: "Workflow",
+    path: "/workflow",
+  },
+];
+
 const Navigation = () => {
   const [open, setOpen] = useState(false);
+  const displayNavItem = navigation.map((item) => {
+    return (
+      <a
+        href={item.path}
+        className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
+      >
+        {item.label}
+      </a>
+    );
+  });
+  const displayMobileNavItem = navigation.map((item) => {
+    return (
+      <a
+        href={item.path}
+        className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
+      >
+        {item.label}
+      </a>
+    );
+  });
 
   return (
     <header
@@ -22,36 +54,7 @@ const Navigation = () => {
 
         {/* DESKTOP NAV */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a
-            href="#"
-            className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
-          >
-            Overview
-          </a>
-          <a
-            href="#"
-            className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
-          >
-            Documentation
-          </a>
-          <a
-            href="#"
-            className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
-          >
-            Pipeline
-          </a>
-          <a
-            href="#"
-            className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
-          >
-            System Status
-          </a>
-          <a
-            href="#"
-            className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
-          >
-            Community
-          </a>
+          {displayNavItem}
         </nav>
 
         {/* MOBILE MENU BUTTON */}
@@ -75,36 +78,7 @@ const Navigation = () => {
         }`}
       >
         <nav className="flex flex-col bg-white border-t border-cool-gray px-4 py-4 space-y-4">
-          <a
-            href="#"
-            className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
-          >
-            Overview
-          </a>
-          <a
-            href="#"
-            className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
-          >
-            Documentation
-          </a>
-          <a
-            href="#"
-            className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
-          >
-            Pipeline
-          </a>
-          <a
-            href="#"
-            className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
-          >
-            System Status
-          </a>
-          <a
-            href="#"
-            className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
-          >
-            Community
-          </a>
+          {displayMobileNavItem}
         </nav>
       </div>
     </header>
