@@ -24,8 +24,8 @@ const LandingPage = () => {
   return (
     <>
       <HeroSection heroSection={heroSection} />
-      <WhatIsTucSection whatIsTucSection={whatIsTucSection} />
       <WhyTucSection whyTucSection={whyTucSection} />
+      <WhatIsTucSection whatIsTucSection={whatIsTucSection} />
       <WhatExistsSection whatExistsSection={whatExistsSection} />
       <HowTucWorkSection howTucWorksSection={howTucWorksSection} />
       <WhoIsBuildingSection whoIsBuildingSection={whoIsBuildingTucSection} />
