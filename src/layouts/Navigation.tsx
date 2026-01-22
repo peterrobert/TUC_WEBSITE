@@ -17,6 +17,7 @@ const Navigation = () => {
   const displayNavItem = navigation.map((item) => {
     return (
       <a
+        key={item.label}
         href={item.path}
         className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
       >
@@ -27,6 +28,7 @@ const Navigation = () => {
   const displayMobileNavItem = navigation.map((item) => {
     return (
       <a
+        key={item.label}
         href={item.path}
         className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
       >
