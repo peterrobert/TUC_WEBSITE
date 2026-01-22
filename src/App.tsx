@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./pages/landing-page";
 import WorkFlowPage from "./pages/work-flow-page";
-
+// -- Router setup for LandingPage and WorkFlowPage --
 function App() {
   return (
     <BrowserRouter>
