@@ -1,11 +1,17 @@
+import { BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./pages/landing-page";
+import WorkFlowPage from "./pages/work-flow-page";
 
 function App() {
   return (
-    <>
-      <LandingPage />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/workflow" element={<WorkFlowPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
