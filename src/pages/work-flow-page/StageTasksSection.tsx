@@ -2,7 +2,7 @@ const StageTasksSection = () => {
   return (
     <section
       id="stage-tasks-section"
-      className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-10 bg-white border-y border-cool-gray"
+      className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-10 border-y border-cool-gray"
     >
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-start lg:items-center">

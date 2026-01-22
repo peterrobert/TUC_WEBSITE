@@ -1,3 +1,6 @@
+import { footerData } from "../../data/footerData";
+import Footer from "../../layouts/Footer";
+import ComparisonSection from "./ComparisonSection";
 import HeroSection from "./HeroSection";
 import StageIdeasSection from "./StageIdeasSection";
 import StageProjectsSection from "./StageProjectsSection";
@@ -16,6 +19,8 @@ const WorkFlowPage = () => {
       <StageTop10Section />
       <StageProjectsSection />
       <StageTasksSection />
+      <ComparisonSection />
+      <Footer footerData={footerData} />
     </>
   );
 };
