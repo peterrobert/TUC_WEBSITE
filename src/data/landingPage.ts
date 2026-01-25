@@ -8,7 +8,7 @@ const landingPageData = {
     ]
   },
   "whatIsTucSection": {
-    "title": "What TUC Is",
+    "title": "What TUC Is Not",
     "introCards": [
       {
         "icon": "fa-mobile-screen",
