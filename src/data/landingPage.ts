@@ -1,8 +1,8 @@
 const landingPageData = {
   "heroSection": {
     "title": "TUC – The Ultimate Collaboration",
-    "subtitle": "A new way of thinking that connects people, ideas, and projects, reimagining ‘think global, act local’ to reduce fragmentation, strengthen collaboration, and create real, measurable change",
-    "description": "TUC is being built slowly and carefully by a small team who believe real change comes from honesty, collaboration, and doing things right.",
+    "subtitle": "A system for turning ideas into real outcomes—without losing clarity, credit, or integrity",
+    "description": "We don’t lack good ideas. We lack a reliable way to coordinate them into real impact. TUC exists because meaningful work often disappears between intention and execution. We are building a collaboration system that protects contributors, makes progress visible, and helps useful work find its way into the world.",
     "buttons": [
       { name: "Explore the System", class: "px-8 py-3 border-2 border-deep-blue text-deep-blue cursor-pointer rounded-md hover:bg-deep-blue hover:text-white transition-colors font-medium text-lg" }
     ]
