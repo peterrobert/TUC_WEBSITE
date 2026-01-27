@@ -115,7 +115,7 @@ const landingPageData = {
         "name": "Suggestion Box",
         "status": "MVP",
         "statusType": "active",
-        "description": "A structured system for capturing, organizing, and evaluating ideas from anyone in the community.",
+        "description": "A working foundation for collecting, organizing, and evolving ideas.",
         "progressLabel": "Active Development",
         "icon": "fa-circle-check",
         "iconColor": "dark-cyan"
@@ -124,7 +124,7 @@ const landingPageData = {
         "name": "Feedback Box",
         "status": "Concept",
         "statusType": "concept",
-        "description": "Transparent feedback collection that helps projects improve while maintaining contributor privacy.",
+        "description": "A tool for turning feedback into structured, actionable insight.",
         "progressLabel": "In Design Phase",
         "icon": "fa-circle-dot",
         "iconColor": "medium-gray"
@@ -133,7 +133,7 @@ const landingPageData = {
         "name": "Top10 System",
         "status": "Concept",
         "statusType": "concept",
-        "description": "Prioritization framework that surfaces the most valuable ideas through community evaluation.",
+        "description": "A framework for surfacing the most valuable ideas, insights, or contributions over time.",
         "progressLabel": "In Design Phase",
         "icon": "fa-circle-dot",
         "iconColor": "medium-gray"
@@ -142,7 +142,7 @@ const landingPageData = {
         "name": "Smart Task Logic",
         "status": "Building",
         "statusType": "building",
-        "description": "Intelligent task management that adapts to project needs and contributor availability.",
+        "description": "A system for breaking large problems into manageable, trackable actions.",
         "progressLabel": "Early Stage",
         "icon": "fa-circle-half-stroke",
         "iconColor": "deep-blue"
@@ -151,7 +151,7 @@ const landingPageData = {
         "name": "AlphaBeta Design",
         "status": "Research",
         "statusType": "research",
-        "description": "Design system and component library built for clarity, accessibility, and long-term maintenance.",
+        "description": "A model for early contributors who help shape the system while learning from it.",
         "progressLabel": "Exploration Phase",
         "icon": "fa-flask",
         "iconColor": "medium-gray"
@@ -160,7 +160,7 @@ const landingPageData = {
         "name": "CloserLook Framework",
         "status": "Research",
         "statusType": "research",
-        "description": "Analytical tools for understanding project impact, contributor patterns, and system health.",
+        "description": "A way of explaining complex systems clearly, layer by layer, without oversimplifying.\nEverything else is actively being built.\nThis is a living system, not a finished product.",
         "progressLabel": "Exploration Phase",
         "icon": "fa-flask",
         "iconColor": "medium-gray"
