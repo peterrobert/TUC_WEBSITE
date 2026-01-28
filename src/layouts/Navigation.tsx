@@ -10,6 +10,10 @@ const navigation = [
     label: "Workflow",
     path: "/workflow",
   },
+  {
+    label: "About",
+    path: "/about",
+  },
 ];
 
 const Navigation = () => {
