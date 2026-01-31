@@ -142,8 +142,8 @@ const landingPageData = {
          "url": "/systems/project"
       },
       {
-        "name": "Smart Task Logic",
-        "status": "Concept",
+        "name": "Smart Task Manager",
+        "status": "POC",
         "statusType": "building",
         "description": "A system for breaking large problems into manageable, trackable actions.",
         "progressLabel": "Early Stage",
