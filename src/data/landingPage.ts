@@ -112,7 +112,7 @@ const landingPageData = {
     "subtitle": "These are the foundational components we've built so far. Each represents a piece of the larger system, actively being developed and refined.",
     "components": [
         {
-        "name": "Top10 System",
+        "name": "Top10 Module",
         "status": "MVP",
         "statusType": "active",
         "description": "A framework for surfacing the most valuable ideas, insights, or contributions over time.",
@@ -122,7 +122,7 @@ const landingPageData = {
          "url": "/systems/top10"
       },
       {
-        "name": "Suggestion Box",
+        "name": "Suggestion Box Module",
         "status": "MVP",
         "statusType": "active",
         "description": "A working foundation for collecting, organizing, and evolving ideas.",
@@ -132,7 +132,7 @@ const landingPageData = {
         "url": "/systems/suggestionBox"
       },
       {
-        "name": "Project",
+        "name": "Project Module",
         "status": "MVP",
         "statusType": "active",
         "description": "The Project Module is where ideas reach full operational form. It transforms structured input fields into live projects, master documents, execution timelines, and collaborative production systems.",
@@ -142,7 +142,7 @@ const landingPageData = {
          "url": "/systems/project"
       },
       {
-        "name": "Smart Task Manager",
+        "name": "Smart Task Manager Module",
         "status": "POC",
         "statusType": "building",
         "description": "A system for breaking large problems into manageable, trackable actions.",
@@ -152,7 +152,7 @@ const landingPageData = {
          "url": "/"
       },
       {
-        "name": "AlphaBeta Design",
+        "name": "AlphaBeta Design Module",
         "status": "Research",
         "statusType": "research",
         "description": "A model for early contributors who help shape the system while learning from it.",
@@ -162,7 +162,7 @@ const landingPageData = {
          "url": "/"
       },
       {
-        "name": "CloserLook Framework",
+        "name": "CloserLook Module",
         "status": "Research",
         "statusType": "research",
         "description": "A way of explaining complex systems clearly, layer by layer, without oversimplifying.\nEverything else is actively being built.\nThis is a living system, not a finished product.",
