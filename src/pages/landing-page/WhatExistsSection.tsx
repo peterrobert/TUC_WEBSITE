@@ -71,7 +71,7 @@ const WhatExistsSection = ({ whatExistsSection }: WhatExistsSectionProps) => {
                     }}
                     className={`px-8 py-1 border-2 border-deep-blue text-deep-blue cursor-pointer rounded-md hover:bg-deep-blue hover:text-white transition-colors font-medium text-sm w-full sm:w-auto`}
                   >
-                    view more
+                    How it works
                   </button>
                 </div>
               </div>
