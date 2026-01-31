@@ -6,6 +6,7 @@ import WorkFlowPage from "./pages/work-flow-page";
 import AboutPage from "./pages/about-page/AboutPage";
 import Top10LandingPage from "./pages/system-pages/Top10LandingPage";
 import SuggestionBoxLandingPage from "./pages/system-pages/suggestion-box";
+import ProjectLandingPage from "./pages/system-pages/project";
 // -- Router setup for LandingPage and WorkFlowPage --
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           path="/systems/suggestionBox"
           element={<SuggestionBoxLandingPage />}
         />
+        <Route path="/systems/project" element={<ProjectLandingPage />} />
       </Routes>
     </BrowserRouter>
   );

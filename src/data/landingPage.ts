@@ -111,6 +111,16 @@ const landingPageData = {
     "title": "What Already Exists",
     "subtitle": "These are the foundational components we've built so far. Each represents a piece of the larger system, actively being developed and refined.",
     "components": [
+        {
+        "name": "Top10 System",
+        "status": "MVP",
+        "statusType": "active",
+        "description": "A framework for surfacing the most valuable ideas, insights, or contributions over time.",
+        "progressLabel": "In Design Phase",
+        "icon": "fa-circle-dot",
+        "iconColor": "medium-gray",
+         "url": "/systems/top10"
+      },
       {
         "name": "Suggestion Box",
         "status": "MVP",
@@ -122,28 +132,18 @@ const landingPageData = {
         "url": "/systems/suggestionBox"
       },
       {
-        "name": "Feedback Box",
-        "status": "Concept",
-        "statusType": "concept",
-        "description": "A tool for turning feedback into structured, actionable insight.",
+        "name": "Project",
+        "status": "MVP",
+        "statusType": "active",
+        "description": "The Project Module is where ideas reach full operational form. It transforms structured input fields into live projects, master documents, execution timelines, and collaborative production systems.",
         "progressLabel": "In Design Phase",
         "icon": "fa-circle-dot",
         "iconColor": "medium-gray",
-         "url": "/"
-      },
-      {
-        "name": "Top10 System",
-        "status": "Concept",
-        "statusType": "concept",
-        "description": "A framework for surfacing the most valuable ideas, insights, or contributions over time.",
-        "progressLabel": "In Design Phase",
-        "icon": "fa-circle-dot",
-        "iconColor": "medium-gray",
-         "url": "/systems/top10"
+         "url": "/systems/project"
       },
       {
         "name": "Smart Task Logic",
-        "status": "Building",
+        "status": "Concept",
         "statusType": "building",
         "description": "A system for breaking large problems into manageable, trackable actions.",
         "progressLabel": "Early Stage",
