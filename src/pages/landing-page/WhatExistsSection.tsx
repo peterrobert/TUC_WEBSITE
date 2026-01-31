@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 type WhatExistsSectionProps = {
   whatExistsSection: {
     title: string;
@@ -10,13 +12,16 @@ type WhatExistsSectionProps = {
       progressLabel: string;
       icon: string;
       iconColor: string;
+      url: string;
     }[];
     footerNote: string;
   };
 };
 
 const WhatExistsSection = ({ whatExistsSection }: WhatExistsSectionProps) => {
+  const navigate = useNavigate();
   const { title, subtitle, components, footerNote } = whatExistsSection;
+
   return (
     <section id="what-exists-section" className="py-14 sm:py-20 px-4 sm:px-8">
       <div className="max-w-6xl mx-auto">
@@ -57,6 +62,17 @@ const WhatExistsSection = ({ whatExistsSection }: WhatExistsSectionProps) => {
                     className={`fa-solid ${component.icon} text-${component.iconColor} mr-2`}
                   ></i>
                   <span>{component.progressLabel}</span>
+                </div>
+                <div className="flex items-center text-xs sm:text-sm text-medium-gray mt-4">
+                  <button
+                    onClick={() => {
+                      navigate(`${component.url}`);
+                      window.scrollTo(0, 0);
+                    }}
+                    className={`px-8 py-1 border-2 border-deep-blue text-deep-blue cursor-pointer rounded-md hover:bg-deep-blue hover:text-white transition-colors font-medium text-sm w-full sm:w-auto`}
+                  >
+                    view more
+                  </button>
                 </div>
               </div>
             );

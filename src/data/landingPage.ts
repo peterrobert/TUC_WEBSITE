@@ -118,7 +118,8 @@ const landingPageData = {
         "description": "A working foundation for collecting, organizing, and evolving ideas.",
         "progressLabel": "Active Development",
         "icon": "fa-circle-check",
-        "iconColor": "dark-cyan"
+        "iconColor": "dark-cyan",
+        "url": "/systems/suggestionBox"
       },
       {
         "name": "Feedback Box",
@@ -127,7 +128,8 @@ const landingPageData = {
         "description": "A tool for turning feedback into structured, actionable insight.",
         "progressLabel": "In Design Phase",
         "icon": "fa-circle-dot",
-        "iconColor": "medium-gray"
+        "iconColor": "medium-gray",
+         "url": "/"
       },
       {
         "name": "Top10 System",
@@ -136,7 +138,8 @@ const landingPageData = {
         "description": "A framework for surfacing the most valuable ideas, insights, or contributions over time.",
         "progressLabel": "In Design Phase",
         "icon": "fa-circle-dot",
-        "iconColor": "medium-gray"
+        "iconColor": "medium-gray",
+         "url": "/systems/top10"
       },
       {
         "name": "Smart Task Logic",
@@ -145,7 +148,8 @@ const landingPageData = {
         "description": "A system for breaking large problems into manageable, trackable actions.",
         "progressLabel": "Early Stage",
         "icon": "fa-circle-half-stroke",
-        "iconColor": "deep-blue"
+        "iconColor": "deep-blue",
+         "url": "/"
       },
       {
         "name": "AlphaBeta Design",
@@ -154,7 +158,8 @@ const landingPageData = {
         "description": "A model for early contributors who help shape the system while learning from it.",
         "progressLabel": "Exploration Phase",
         "icon": "fa-flask",
-        "iconColor": "medium-gray"
+        "iconColor": "medium-gray",
+         "url": "/"
       },
       {
         "name": "CloserLook Framework",
@@ -163,7 +168,8 @@ const landingPageData = {
         "description": "A way of explaining complex systems clearly, layer by layer, without oversimplifying.\nEverything else is actively being built.\nThis is a living system, not a finished product.",
         "progressLabel": "Exploration Phase",
         "icon": "fa-flask",
-        "iconColor": "medium-gray"
+        "iconColor": "medium-gray",
+        "url": "/"
       }
     ],
     "footerNote": "The system is actively being built. These components will evolve as we learn what works and what doesn't. Transparency means showing the work in progress, not just the finished product."
