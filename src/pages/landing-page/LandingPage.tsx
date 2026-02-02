@@ -1,3 +1,4 @@
+import ScrollToTopButton from "../../components/ScrollToTopButton";
 import { footerData } from "../../data/footerData";
 import landingPageData from "../../data/landingPage";
 import Footer from "../../layouts/Footer";
@@ -34,6 +35,7 @@ const LandingPage = () => {
       />
       <WhatMakesPossibleSection whatMakesPossibleData={whatMakesPossibleData} />
       <Footer footerData={footerData} />
+      <ScrollToTopButton />
     </>
   );
 };
