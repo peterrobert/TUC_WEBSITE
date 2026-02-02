@@ -27,8 +27,8 @@ const LandingPage = () => {
       <HeroSection heroSection={heroSection} />
       <WhyTucSection whyTucSection={whyTucSection} />
       <WhatIsTucSection whatIsTucSection={whatIsTucSection} />
-      <WhatExistsSection whatExistsSection={whatExistsSection} />
       <HowTucWorkSection howTucWorksSection={howTucWorksSection} />
+      <WhatExistsSection whatExistsSection={whatExistsSection} />
       <WhoIsBuildingSection whoIsBuildingSection={whoIsBuildingTucSection} />
       <WhatMakesDifferentSection
       // whatMakesDifferentData={whatMakesDifferentData}
