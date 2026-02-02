@@ -330,8 +330,7 @@ const landingPageData = {
   "whatMakesDifferentData":{
     "sectionTitle": "What Makes TUC Different",
 
-  "sectionSubtitle":
-    "These aren't aspirations or marketing copy. They're architectural decisions baked into how the system works.",
+  "sectionSubtitle": "TUC is guided by principles of access, transparency, non-extraction, and long-term sustainability—embedded directly into how the system is designed and operated.\n\nThese aren’t aspirations or marketing copy. They are architectural decisions baked into how the system works—designed to address the structural failures common in platforms, startups, nonprofits, and marketplaces.",
 
   "items": [
     {

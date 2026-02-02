@@ -29,8 +29,12 @@ const WhatMakesDifferentSection = () => {
           <div className="w-20 sm:w-24 h-1 bg-dark-cyan mx-auto mb-4 sm:mb-6"></div>
 
           <p className="text-base sm:text-lg text-medium-gray max-w-3xl mx-auto">
-            These aren't aspirations or marketing copy. They're architectural
-            decisions baked into how the system works.
+            TUC is guided by principles of access, transparency, non-extraction,
+            and long-term sustainability embedded directly into how the system
+            is designed and operated. These aren’t aspirations or marketing
+            copy. They are architectural decisions baked into how the system
+            works designed to address the structural failures common in
+            platforms, startups, nonprofits, and marketplaces.
           </p>
         </div>
 
@@ -39,27 +43,31 @@ const WhatMakesDifferentSection = () => {
           {[
             {
               title: "No Extraction",
-              text: "Value flows to contributors, not investors. The system is designed to support creators, not extract from them.",
+              text: "Value flows to contributors, not toward extraction as a primary goal. The system is designed to support creators and participants rather than monetize attention or unpaid labor. Everyone goes through the same door and operates under the same shared guidelines—Vision, Mission, Core Values, and Principles—to ensure equitable, durable access and accountability.",
             },
             {
               title: "No Fake Scale",
-              text: "We grow at the pace our capacity allows. No artificial growth targets or pressure to scale before we're ready.",
+              text: "Growth happens at the pace real capacity and bandwidth allow. There are no artificial growth targets, forced performance, or pressure to scale before the system is ready. Risk is treated as an opportunity for learning, but unnecessary risk is intentionally avoided.",
             },
             {
               title: "Transparency by Default",
-              text: "Decisions, changes, and reasoning are documented and visible. No hidden agendas or opaque processes.",
+              text: " Decisions, changes, and reasoning are documented and visible. There are no hidden agendas or opaque processes. This transparency is intentional—showing how shared visibility and accountability can increase engagement and improve the Efficiency of Things (EoT) and Value of Things (VoT).",
             },
             {
               title: "Remixability",
-              text: "Projects and components can be adapted and reused. We're building infrastructure, not walled gardens.",
+              text: " Projects and components are accessible and tailorable so they can be adapted, reused, and improved over time. The focus is on building shared infrastructure, not closed or walled systems.",
             },
             {
               title: "Measurable Impact",
-              text: "Success is defined by real outcomes, not vanity metrics or user counts.",
+              text: "Success is defined by inclusive participation and real, durable outcomes—not vanity metrics, hype cycles, or raw user counts.",
             },
             {
-              title: "Long-term Thinking",
-              text: "Built for decades, not quarters. Decisions prioritize sustainability over short-term gains.",
+              title: "Long-Term, Forward-Looking Design",
+              text: " The system is built for decades, not quarters. Decisions prioritize sustainability, resilience, and learning over short-term gains.",
+            },
+            {
+              title: "Uncorruptable by Design",
+              text: "These principles are not enforced through goodwill or policy alone—they are embedded in the system’s structure. Attribution is tracked, so value cannot be extracted without contribution. Decisions are visible, so they cannot be hidden. Scale is tied to real capacity, preventing irresponsible growth. The design reduces the ability to be corrupted rather than relying on trust or enforcement after the fact.",
             },
           ].map((item, index) => (
             <div
