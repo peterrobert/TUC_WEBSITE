@@ -23,8 +23,7 @@ type WhoIsBuildingSectionData = {
 const WhoIsBuildingSection = ({
   whoIsBuildingSection,
 }: WhoIsBuildingSectionData) => {
-  const { sectionTitle, sectionSubtitle, teamMembers, cultureSection } =
-    whoIsBuildingSection;
+  const { sectionTitle } = whoIsBuildingSection;
 
   return (
     <section
@@ -39,14 +38,10 @@ const WhoIsBuildingSection = ({
           </h2>
 
           <div className="w-20 sm:w-24 h-1 bg-deep-blue mx-auto mb-4 sm:mb-6" />
-
-          <p className="text-base sm:text-lg text-medium-gray max-w-3xl mx-auto">
-            {sectionSubtitle}
-          </p>
         </div>
 
         {/* Team Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-10 lg:mb-12">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-10 lg:mb-12">
           {teamMembers.map((member) => (
             <div
               key={member.email}
@@ -79,22 +74,32 @@ const WhoIsBuildingSection = ({
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* Culture Section */}
         <div className="bg-pale-blue border border-cool-gray rounded-lg p-6 sm:p-8 lg:p-10">
-          <h3 className="text-xl sm:text-2xl font-serif font-bold text-dark-gray mb-4 text-center">
-            {cultureSection.title}
-          </h3>
-
-          {cultureSection.paragraphs.map((text, index) => (
-            <p
-              key={index}
-              className="text-base sm:text-lg text-medium-gray leading-relaxed text-center max-w-3xl mx-auto mb-4 last:mb-0"
-            >
-              {text}
-            </p>
-          ))}
+          <p className="text-base sm:text-lg text-medium-gray leading-relaxed max-w-3xl mx-auto mb-4 last:mb-0">
+            TUC is being built deliberately by a small core team, with input
+            from a much larger group of contributors over time.
+          </p>
+          <p className="text-base sm:text-lg text-medium-gray leading-relaxed max-w-3xl mx-auto mb-4 last:mb-0">
+            In its various forms, TUC has been shaped by hundreds of people—and
+            nearly a thousand AlphaBeta contributors—some knowingly, some
+            unknowingly—who engaged with its ideas, tools, and early
+            experiments. This long, quiet development period was intentional.
+          </p>
+          <p className="text-base sm:text-lg text-medium-gray leading-relaxed max-w-3xl mx-auto mb-4 last:mb-0">
+            TUC remained in stealth mode to manage bandwidth, learn from real
+            use, and design systems that could scale without corruption, protect
+            its core identity, and preserve WhoWeAre: TUC’s Vision, Mission,
+            Core Values, and Principles.
+          </p>
+          <p className="text-base sm:text-lg text-medium-gray leading-relaxed max-w-3xl mx-auto mb-4 last:mb-0">
+            The system is designed to respect real human capacity, avoid
+            pressure-driven participation, and support long-term progress
+            instead of burnout. Contribution is optional. The work moves forward
+            at a pace people can actually sustain.
+          </p>
         </div>
       </div>
     </section>

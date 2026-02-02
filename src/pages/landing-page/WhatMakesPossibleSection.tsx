@@ -33,7 +33,7 @@ const WhatMakesPossibleSection = ({
   return (
     <section
       id="what-makes-possible-section"
-      className="py-14 sm:py-20 px-4 sm:px-8"
+      className="py-14 sm:py-20 px-4 sm:px-8  bg-white"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
