@@ -54,55 +54,71 @@ const landingPageData = {
     }
   },
    "whyTucSection": {
-    "title": "The Problems TUC Exists to Solve",
+    "title": "Why TUC Is Needed",
     "problems": [
       {
         "title": "Fragmentation",
-        "description": "Ideas live in separate tools, conversations, and documents that never connect into action."
+        "description": "Ideas, work, and resources live across disconnected tools, conversations, and organizations that rarely link into action."
+      },
+      {
+        "title": "Lost Follow-Through",
+        "description": " Good intentions fade between discussion and execution because ownership, next steps, and progress aren’t clear."
+      },
+      {
+        "title": "Underutilized People and Skills",
+        "description": "Willing contributors—especially outside formal systems—are overlooked, unseen, or unable to plug in meaningfully."
       },
       {
         "title": "Invisible Progress",
-        "description": "People can’t see what is moving, what is stuck, or where help is needed."
-      },
-      {
-        "title": "Lost Credit",
-        "description": "Contributions disappear, reducing trust, motivation, and long-term participation."
-      },
-      {
-        "title": "Unclear Next Steps",
-        "description": "Even when people want to help, they don’t know what to do next."
+        "description": "Work that is happening isn’t visible, making it hard to build momentum, trust, or continuity."
       },
       {
         "title": "Duplicated Effort",
-        "description": "The same problems are solved repeatedly because prior work isn’t discoverable."
+        "description": "The same problems are worked on repeatedly because prior learning and progress aren’t carried forward."
       },
       
       {
-        "title": "Coordination Overhead",
-        "description": " More energy goes into organizing than building.\n TUC exists to replace this fragility with structure that is visible, fair, and regenerative."
-      },
-      {
-        "title": "Lost Potential",
-        "description":"Because of these problems, enormous value never becomes real.\n Ideas stall.\nPeople disengage.\nCommunities remain under-resourced.\nSolutions that work once fail to spread.\n\nWhat is wasted:\nHuman creativity\nTime and effort\nLocal knowledge\nTrust and motivation\nOpportunities for collective growth\n\nWhy it matters:\nLost potential is not abstract. It shapes livelihoods, progress, and possibility.\nTUC exists to reduce this waste by making coordination reliable and reusable."
-      },
-      {
-        "title": "In Plain Language (Human Grounding)",
-        "description": "TUC is a place where helpful work does not disappear.\n\nIt transforms \"Someone should do something\" into \"Here is what is happening, who is involved, and what comes next.\"\n\nIt gives strong ideas a permanent home — where they can grow, evolve, and be carried forward by many contributors instead of fading into silence."
-      }
-      
+        "title": "Access Gaps",
+        "description": "Opportunity often depends on proximity, privilege, or insider knowledge instead of willingness to contribute."
+      } 
     ],
+    "combined_problems": {
+    "title": "Lost Potential",
+    "description": [
+      "Because of these problems, enormous value never becomes real.",
+      "Ideas stall.",
+      "People disengage.",
+      "Communities remain under-resourced.",
+      "Solutions that work once fail to spread.",
+      "",
+      "What is wasted:",
+      "Human creativity",
+      "Time and effort",
+      "Local knowledge",
+      "Trust and motivation",
+      "Opportunities for collective growth",
+      "",
+      "Why it matters:",
+      "Lost potential is not abstract. It shapes livelihoods, progress, and possibility.",
+      "TUC exists to reduce this waste by making coordination reliable and reusable."
+    ]
+    },
     "quote": {
       "text": "Creativity is abundant. Coordination is scarce. We don't lack good ideas—we lack systems that help those ideas find the right people, resources, and momentum."
     },
     "mission": {
-      "title": "Our Mission",
-      "description": "TUC exists to solve these problems through transparent infrastructure. We're building a system where:",
+      "title": "TUC’s Mission Statement",
+      "description": "TUC’s mission is to increase access to opportunity by connecting underutilized people, ideas, and resources, so those willing to contribute can turn good ideas into real outcomes.",
       "points": [
-        "Ideas are captured and evaluated systematically",
-        "Projects can be discovered and remixed",
-        "Contributors receive credit and visibility",
-        "Coordination happens without centralized control",
-        "Value flows to those who create it"
+       {
+        "title": "What This Is",
+        "description": "TUC is a way for people who want to help to find where their effort matters—by making ideas, needs, and contributions visible without hierarchy or control.\n\nIt creates shared visibility across people, projects, and resources so useful work doesn’t get lost, duplicated, or stalled.\n\nBy lowering barriers to participation and clarifying where help is needed, TUC helps individual effort turn into collective progress.",
+       },
+        {
+        "title": "What Kind of Site This Is",
+        "description": "This website is not a feed, a pitch, or a social network.\n\nThis website is a working space for understanding TUC—making its purpose visible, identifying real problems, surfacing underutilized potential, and coordinating practical collaboration.\n\nTUC has been intentionally hyper-focused for years. This website is the first public-facing step out of stealth—designed to share the core ideas and structure while continuing to build carefully and stay largely under the radar.\n\nIt’s meant to help people orient, think clearly, and see where meaningful contribution is possible—without pressure, performance, or noise."
+
+       }
       ]
     }
   },
