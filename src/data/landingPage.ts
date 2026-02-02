@@ -1,3 +1,7 @@
+import peterImage from "../assets/peter.jpg";
+import jeffImage  from "../assets/jeff.jpeg";
+
+
 const landingPageData = {
   "heroSection": {
     "title": "TUC – The Ultimate Collaboration",
@@ -13,17 +17,17 @@ const landingPageData = {
       {
         "icon": "fa-mobile-screen",
         "title": "Not an App",
-        "description": "TUC isn't a product you download. It's a system you participate in."
+        "description": " TUC isn’t a product you download or a tool you install. It’s a system you participate in—designed to help effort, ideas, and resources find their way into real use."
       },
       {
         "icon": "fa-building",
         "title": "Not a Traditional Company",
-        "description": "We're structured around principles, not profit extraction."
+        "description": "TUC isn’t structured around profit extraction or short-term incentives. It’s organized around principles of access, coordination, and long-term value creation."
       },
       {
         "icon": "fa-box",
         "title": "Not a Product",
-        "description": "TUC is infrastructure for collaboration, not a feature set."
+        "description": " TUC isn’t a feature set or a thing to be sold. It’s shared infrastructure for collaboration. When products or services are involved, they exist to increase access, reduce waste, and create opportunity—not to exploit attention or unpaid labor."
       }
     ],
     "mainContent": {
@@ -298,19 +302,19 @@ const landingPageData = {
   },
   "whoIsBuildingTucSection": {
   "sectionTitle": "Who Is Building TUC",
-  "sectionSubtitle": "A small team working deliberately, focused on building something sustainable rather than something fast.",
+  "sectionSubtitle": "TUC is being built deliberately by a small core team, with input from a much larger group of contributors over time. In its various forms, TUC has been shaped by hundreds of people and nearly a thousand AlphaBeta contributors some knowingly, some unknowingly who engaged with its ideas, tools, and early experiments. This long, quiet development period was intentional.",
   "teamMembers": [
     {
       "name": "Jeff",
       "role": "Founder / Architect",
-      "image": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
+      "image": `${jeffImage}`,
       "description": "Responsible for system design, strategic direction, and ensuring TUC remains aligned with its core principles. Jeff focuses on the big picture—how the pieces fit together and what problems we're actually solving.",
       "email": "jeff@tuc.system"
     },
     {
       "name": "Peter",
       "role": "DevOps / Platform Builder",
-      "image": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-4.jpg",
+      "image":`${peterImage}`,
       "description": "Handles infrastructure, deployment, and technical implementation. Peter translates system concepts into working code and maintains the platform's reliability and performance.",
       "email": "peter@tuc.system"
     }
@@ -318,8 +322,8 @@ const landingPageData = {
   "cultureSection": {
     "title": "A Culture of Optional Contribution",
     "paragraphs": [
-      "We're not building a startup culture. There's no pressure to hustle, no expectation of unpaid labor disguised as opportunity, and no artificial urgency. Contribution is genuinely optional. If you want to help, great. If you don't, that's fine too.",
-      "The system is designed to work with whatever capacity people actually have—not the capacity we wish they had. This means slower progress, but it also means sustainable progress."
+     "TUC remained in stealth mode to manage bandwidth, learn from real use, and design systems that could scale without corruption, protect its core identity, and preserve WhoWeAre: TUC’s Vision, Mission, Core Values, and Principles.",
+    "The system is designed to respect real human capacity, avoid pressure-driven participation, and support long-term progress instead of burnout. Contribution is optional. The work moves forward at a pace people can actually sustain."
     ]
   }
   },
