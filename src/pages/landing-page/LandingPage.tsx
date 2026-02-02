@@ -4,6 +4,7 @@ import landingPageData from "../../data/landingPage";
 import Footer from "../../layouts/Footer";
 import HeroSection from "./HeroSection";
 import HowTucWorkSection from "./HowTucWorkSection";
+import MissionStatement from "./MissionStatement";
 import WhatExistsSection from "./WhatExistsSection";
 import WhatIsTucSection from "./WhatIsTucSection";
 import WhatMakesDifferentSection from "./WhatMakesDifferentSection";
@@ -25,14 +26,16 @@ const LandingPage = () => {
   return (
     <>
       <HeroSection heroSection={heroSection} />
+      <MissionStatement whyTucSection={whyTucSection} />
       <WhyTucSection whyTucSection={whyTucSection} />
       <WhatIsTucSection whatIsTucSection={whatIsTucSection} />
       <HowTucWorkSection howTucWorksSection={howTucWorksSection} />
       <WhatExistsSection whatExistsSection={whatExistsSection} />
-      <WhoIsBuildingSection whoIsBuildingSection={whoIsBuildingTucSection} />
       <WhatMakesDifferentSection
       // whatMakesDifferentData={whatMakesDifferentData}
       />
+      <WhoIsBuildingSection whoIsBuildingSection={whoIsBuildingTucSection} />
+
       <WhatMakesPossibleSection whatMakesPossibleData={whatMakesPossibleData} />
       <Footer footerData={footerData} />
       <ScrollToTopButton />

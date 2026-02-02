@@ -58,7 +58,7 @@ const landingPageData = {
     }
   },
    "whyTucSection": {
-    "title": "The Problems TUC Exists to Solve",
+    "title": "Why TUC Is Needed",
     "problems": [
       {
         "title": "Fragmentation",

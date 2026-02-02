@@ -1,5 +1,3 @@
-import { Fragment } from "react/jsx-runtime";
-
 type PointsType = {
   title: string;
   description: string;
@@ -23,7 +21,7 @@ type WhyTucSectionProps = {
   };
 };
 const WhyTucSection = ({ whyTucSection }: WhyTucSectionProps) => {
-  const { title, problems, quote, mission } = whyTucSection;
+  const { title, problems, quote } = whyTucSection;
   const displayproblems = () => {
     return problems.map((problem, index) => {
       return (
@@ -182,29 +180,6 @@ const WhyTucSection = ({ whyTucSection }: WhyTucSectionProps) => {
               <p className="text-2xl font-serif text-dark-gray leading-relaxed italic">
                 {quote.text}
               </p>
-            </div>
-
-            <div className="bg-deep-blue text-white rounded-lg p-10">
-              <h3 className="text-2xl font-serif font-bold mb-4">
-                {mission.title}
-              </h3>
-              <p className="text-lg leading-relaxed mb-6">
-                {mission.description}
-              </p>
-              <ul className="space-y-3 text-lg">
-                {mission.points.map((point, index) => {
-                  return (
-                    <Fragment key={index}>
-                      <h3 className="text-2xl font-serif font-bold mb-4">
-                        {point.title}
-                      </h3>
-                      <p className="text-lg leading-relaxed mb-6">
-                        {point.description}
-                      </p>
-                    </Fragment>
-                  );
-                })}
-              </ul>
             </div>
           </div>
         </div>
