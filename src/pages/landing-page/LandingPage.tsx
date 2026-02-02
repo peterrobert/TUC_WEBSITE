@@ -9,6 +9,7 @@ import WhatExistsSection from "./WhatExistsSection";
 import WhatIsTucSection from "./WhatIsTucSection";
 import WhatMakesDifferentSection from "./WhatMakesDifferentSection";
 import WhatMakesPossibleSection from "./WhatMakesPossibleSection";
+import WhatTuc from "./WhatTuc";
 import WhoIsBuildingSection from "./WhoIsBuildingSection";
 import WhyTucSection from "./WhyTucSection";
 
@@ -28,6 +29,7 @@ const LandingPage = () => {
       <HeroSection heroSection={heroSection} />
       <MissionStatement whyTucSection={whyTucSection} />
       <WhyTucSection whyTucSection={whyTucSection} />
+      <WhatTuc />
       <WhatIsTucSection whatIsTucSection={whatIsTucSection} />
       <HowTucWorkSection howTucWorksSection={howTucWorksSection} />
       <WhatExistsSection whatExistsSection={whatExistsSection} />
