@@ -23,7 +23,7 @@ const Navigation = () => {
       <a
         key={item.label}
         href={item.path}
-        className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
+        className="text-medium-gray hover:text-deep-blue font-medium transition-colors cursor-pointer"
       >
         {item.label}
       </a>

@@ -1,3 +1,4 @@
+import ScrollToTopButton from "../../components/ScrollToTopButton";
 import { footerData } from "../../data/footerData";
 import Footer from "../../layouts/Footer";
 
@@ -977,6 +978,7 @@ const AboutPage = () => {
       </section>
       ️{/* footer */}
       <Footer footerData={footerData} />
+      <ScrollToTopButton />
     </>
   );
 };
