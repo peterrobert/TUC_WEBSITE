@@ -28,7 +28,7 @@ const MissionStatement = ({ whyTucSection }: WhyTucSectionProps) => {
   return (
     <section
       id="why-tuc-exists-section"
-      className="py-20 px-8 bg-white border-y border-cool-gray"
+      className="py-20 px-8  border-y border-cool-gray"
     >
       <div className="max-w-5xl mx-auto">
         <div className="bg-deep-blue text-white rounded-lg p-10">
