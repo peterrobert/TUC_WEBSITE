@@ -1,3 +1,4 @@
+import ScrollToTopButton from "../../components/ScrollToTopButton";
 import { footerData } from "../../data/footerData";
 import Footer from "../../layouts/Footer";
 import ComparisonSection from "./ComparisonSection";
@@ -21,6 +22,7 @@ const WorkFlowPage = () => {
       <StageTasksSection />
       <ComparisonSection />
       <Footer footerData={footerData} />
+      <ScrollToTopButton />
     </>
   );
 };
