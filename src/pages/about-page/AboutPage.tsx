@@ -1,6 +1,8 @@
 import ScrollToTopButton from "../../components/ScrollToTopButton";
 import { footerData } from "../../data/footerData";
 import Footer from "../../layouts/Footer";
+import peterImage from "../../assets/peter.jpg";
+import jeffImage from "../../assets/jeff.jpeg";
 
 const AboutPage = () => {
   return (
@@ -212,7 +214,7 @@ const AboutPage = () => {
             >
               <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-4 mb-6 sm:mb-8">
                 <img
-                  src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg"
+                  src={`${jeffImage}`}
                   alt="Jeff"
                   className="w-24 h-24 sm:w-32 sm:h-32 rounded-lg object-cover shrink-0"
                 />
@@ -237,12 +239,36 @@ const AboutPage = () => {
                   <h4 className="text-lg sm:text-xl font-semibold text-dark-gray mb-1 sm:mb-2">
                     Role & Responsibilities
                   </h4>
-                  <p className="text-base sm:text-lg text-medium-gray leading-relaxed">
-                    Jeff handles system design, strategic direction, and ensures
-                    TUC remains aligned with its core principles. He focuses on
-                    the big picture—how the pieces fit together, what problems
-                    we're actually solving, and why certain decisions make sense
-                    in the long term.
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Jeff is responsible for TUC’s vision, regenerative system
+                    design, long-term direction, and architectural integrity. He
+                    focuses on identifying EoT (Efficiency of Things) and VoT
+                    (Value of Things)—anything underutilized, inaccessible, or
+                    undervalued, including people, ideas, resources,
+                    information, efforts, and systems—and determining how those
+                    elements can fit together beyond the constraints of the
+                    broken systems they come from.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    A central responsibility of his role is ensuring that all
+                    design decisions remain aligned with WhoWeAre—TUC’s Vision,
+                    Mission, Core Values, and Principles—as the platform
+                    evolves.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Jeff keeps a close eye on global patterns and emerging
+                    behaviors, anticipating red flags related to borderless
+                    coordination at scale. This includes identifying gaps,
+                    surfacing root causes behind systemic problems, and
+                    designing regenerative systems that reduce waste, friction,
+                    and fragmentation—while remaining resilient to noise,
+                    overreaction, burnout, and decisions that risk burning
+                    bridges.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    He is especially focused on managing the tension between
+                    coherence vs scale, ensuring that growth does not come at
+                    the cost of integrity, trust, or long-term viability.
                   </p>
                 </div>
 
@@ -250,12 +276,25 @@ const AboutPage = () => {
                   <h4 className="text-lg sm:text-xl font-semibold text-dark-gray mb-1 sm:mb-2">
                     Philosophy
                   </h4>
-                  <p className="text-base sm:text-lg text-medium-gray leading-relaxed">
-                    Believes that most coordination problems are design
-                    problems. If collaboration feels extractive or opaque, the
-                    system is broken—not the people using it. Committed to
-                    building infrastructure that respects contributor autonomy
-                    while enabling meaningful coordination.
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Jeff believes that most coordination problems are design
+                    problems, not people problems. When collaboration feels
+                    extractive, opaque, or exhausting, the system—not the
+                    individuals using it—is usually broken.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    He is cautious of urgency-driven decision-making,
+                    recognizing that noise and overreaction can accelerate
+                    burnout, damage trust, and fracture long-term collaboration.
+                    Sustainable progress requires systems that respect real
+                    human capacity, allow optional contribution, and protect
+                    contributors from pressure-driven participation.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Jeff views regenerative design as TUC’s core advantage:
+                    systems that others can build on freely, learn from safely,
+                    and engage with equitably—without requiring constant
+                    visibility, performance, or self-promotion.
                   </p>
                 </div>
 
@@ -263,12 +302,27 @@ const AboutPage = () => {
                   <h4 className="text-lg sm:text-xl font-semibold text-dark-gray mb-1 sm:mb-2">
                     Background
                   </h4>
-                  <p className="text-base sm:text-lg text-medium-gray leading-relaxed">
-                    Years of experience watching good ideas die in
-                    organizational dysfunction. Saw talented people burned by
-                    extractive systems. Decided to build something
-                    different—slowly, transparently, and with integrity baked
-                    into the architecture.
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Jeff has spent years watching good ideas fail due to
+                    organizational dysfunction, extractive systems, and
+                    misaligned incentives. He has seen talented people burned
+                    out or sidelined—not because their ideas lacked merit, but
+                    because the systems around them were fragile, politicized,
+                    or poorly designed.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    TUC emerged from a long period of quiet experimentation,
+                    reflection, and iteration. Jeff often reflects on TUC’s full
+                    potential—knowing it is vast—while remaining grounded in the
+                    need to build systems that are functional, coherent, and
+                    sustainable in the present.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    His greatest hope is that TUC reaches its tipping point
+                    without losing coherence or forcing visibility where
+                    anonymity is safer. Balancing that risk—between coherence
+                    and scale—remains both a guiding discipline and a constant
+                    concern as TUC grows.
                   </p>
                 </div>
               </div>
@@ -281,7 +335,7 @@ const AboutPage = () => {
             >
               <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-4 mb-6 sm:mb-8">
                 <img
-                  src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-4.jpg"
+                  src={`${peterImage}`}
                   alt="Peter"
                   className="w-24 h-24 sm:w-32 sm:h-32 rounded-lg object-cover shrink-0"
                 />
@@ -306,12 +360,38 @@ const AboutPage = () => {
                   <h4 className="text-lg sm:text-xl font-semibold text-dark-gray mb-1 sm:mb-2">
                     Role & Responsibilities
                   </h4>
-                  <p className="text-base sm:text-lg text-medium-gray leading-relaxed">
-                    Peter handles infrastructure, deployment, and technical
-                    implementation. He translates system concepts into working
-                    code and maintains the platform's reliability and
-                    performance. Responsible for making sure the technical
-                    foundation can support the vision without collapsing.
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Peter is responsible for infrastructure, deployment, and
+                    technical implementation across TUC’s platform. He
+                    translates abstract system concepts into working code and
+                    ensures that the technical foundation can support the vision
+                    without collapsing under its own weight.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Originally trained in civil engineering, Peter pivoted
+                    through self-directed learning into logic, coding, and
+                    full-stack development—bringing with him a systems mindset
+                    focused on structure, load, durability, and long-term
+                    integrity. His role often places him as the last line of
+                    responsibility when systems must ship, stabilize, or
+                    recover.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Working under constrained resources and without the budget
+                    to retain or attract a full-time team, Peter has frequently
+                    carried solo responsibility for execution. During periods
+                    when quitting would have been rational—particularly when he
+                    was the last one standing—he chose to keep his head down,
+                    continue shipping, and trust the system even when it existed
+                    more as theory than fully functional reality.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Peter approaches unclear requirements by breaking work into
+                    micro-tasks and moving forward incrementally. He treats
+                    technical debt—whether inherited or unavoidable—as a shared
+                    responsibility, with the long view that TUC itself is being
+                    built to solve the coordination and follow-through
+                    challenges that create such debt in the first place.
                   </p>
                 </div>
 
@@ -319,12 +399,30 @@ const AboutPage = () => {
                   <h4 className="text-lg sm:text-xl font-semibold text-dark-gray mb-1 sm:mb-2">
                     Philosophy
                   </h4>
-                  <p className="text-base sm:text-lg text-medium-gray leading-relaxed">
-                    Believes infrastructure should be invisible when it works
-                    and transparent when it doesn't. Prioritizes stability over
-                    novelty, clarity over cleverness. Committed to building
-                    systems that can be maintained and understood by future
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Peter believes infrastructure should be invisible when it
+                    works and transparent when it doesn’t. He prioritizes
+                    stability over novelty, clarity over cleverness, and systems
+                    that can be understood, maintained, and inherited by future
                     contributors.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Operating in TUC’s discovery and testing phase, Peter treats
+                    mistakes as learning opportunities while resisting pressure
+                    to “just ship” before systems are ready for the stage they
+                    are in. He understands that TUC is not being built for a
+                    finished end state, but for progressive learning—knowing the
+                    full system will eventually require thousands of
+                    contributors and far more resources than are currently
+                    available.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    He checks ego at the door, does not think in terms of “my
+                    code,” and assumes that he will eventually be replaced by
+                    people better suited to take the system further. That
+                    expectation shapes how he builds: with survivability,
+                    readability, and handoff in mind rather than personal
+                    authorship.
                   </p>
                 </div>
 
@@ -332,11 +430,35 @@ const AboutPage = () => {
                   <h4 className="text-lg sm:text-xl font-semibold text-dark-gray mb-1 sm:mb-2">
                     Background
                   </h4>
-                  <p className="text-base sm:text-lg text-medium-gray leading-relaxed">
-                    Deep experience in platform engineering and DevOps. Has seen
-                    what happens when technical debt compounds and shortcuts
-                    accumulate. Focused on building things properly from the
-                    start, even if it takes longer.
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Peter’s journey reflects a Zero-to-Hero arc defined less by
+                    ambition than by persistence. Without relying on formal
+                    credentials in software engineering, he taught himself
+                    through repetition, failure, and continuous
+                    problem-solving—often when systems broke repeatedly and no
+                    one was watching.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    He has seen firsthand how shortcuts and accumulated
+                    technical debt can quietly undermine platforms, and how
+                    fragile systems fail under social and operational
+                    complexity. Those experiences have reinforced his preference
+                    for regenerative, durable, and scalable systems over
+                    performative engineering.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    Peter remains largely under the radar by choice, focused on
+                    mastery without waiting to have it before moving forward. He
+                    is still operating primarily in execution mode, but
+                    increasingly enjoys exposure to C-level systems thinking and
+                    the strategic layers of TUC’s design.
+                  </p>
+                  <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                    He stays with TUC because he believes in the principle that
+                    everyone walks through the same door—and because he
+                    understands how a global, uncorruptable opportunity network
+                    grounded in practical learning could change outcomes not
+                    just for himself, but for his family and others like them
                   </p>
                 </div>
               </div>
