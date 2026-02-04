@@ -1,6 +1,7 @@
 import ScrollToTopButton from "../../components/ScrollToTopButton";
 import { footerData } from "../../data/footerData";
 import Footer from "../../layouts/Footer";
+// ---- IGNORE ----
 import peterImage from "../../assets/peter.jpg";
 import jeffImage from "../../assets/jeff.jpeg";
 
