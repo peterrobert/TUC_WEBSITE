@@ -1,3 +1,5 @@
+import TUCChoiceSection from "../TUCChoiceSection";
+
 type HeroSectionProps = {
   heroSection: {
     title: string;
@@ -8,7 +10,7 @@ type HeroSectionProps = {
 };
 
 const HeroSection = ({ heroSection }: HeroSectionProps) => {
-  const { title, subtitle, description, buttons } = heroSection;
+  const { title, subtitle, description } = heroSection;
 
   return (
     <section
@@ -34,18 +36,7 @@ const HeroSection = ({ heroSection }: HeroSectionProps) => {
         </div>
 
         {/* BUTTONS */}
-        <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-3 sm:gap-4">
-          {buttons.map((buttonText, index) => {
-            return (
-              <button
-                key={index}
-                className={`${buttonText.class} w-full sm:w-auto`}
-              >
-                {buttonText.name}
-              </button>
-            );
-          })}
-        </div>
+        <TUCChoiceSection />
       </div>
     </section>
   );
