@@ -2,6 +2,7 @@ import ScrollToTopButton from "../../components/ScrollToTopButton";
 import { footerData } from "../../data/footerData";
 import landingPageData from "../../data/landingPage";
 import Footer from "../../layouts/Footer";
+import TUCContextModal from "../TUCContextModal";
 import HeroSection from "./HeroSection";
 import HowTucWorkSection from "./HowTucWorkSection";
 import MissionStatement from "./MissionStatement";
@@ -26,6 +27,7 @@ const LandingPage = () => {
   } = landingPageData;
   return (
     <>
+      <TUCContextModal />
       <HeroSection heroSection={heroSection} />
       <MissionStatement whyTucSection={whyTucSection} />
       <WhyTucSection whyTucSection={whyTucSection} />
