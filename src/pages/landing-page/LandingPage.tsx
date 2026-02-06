@@ -2,6 +2,7 @@ import ScrollToTopButton from "../../components/ScrollToTopButton";
 import { footerData } from "../../data/footerData";
 import landingPageData from "../../data/landingPage";
 import Footer from "../../layouts/Footer";
+import TUCMeetsYouWhereYouAre from "./ TUCMeetsYouWhereYouAre";
 import HeroSection from "./HeroSection";
 import HowTucWorkSection from "./HowTucWorkSection";
 import MissionStatement from "./MissionStatement";
@@ -31,6 +32,7 @@ const LandingPage = () => {
       <WhyTucSection whyTucSection={whyTucSection} />
       <WhatTuc />
       <WhatIsTucSection whatIsTucSection={whatIsTucSection} />
+      <TUCMeetsYouWhereYouAre />
       <HowTucWorkSection howTucWorksSection={howTucWorksSection} />
       <WhatExistsSection whatExistsSection={whatExistsSection} />
       <WhatMakesDifferentSection
