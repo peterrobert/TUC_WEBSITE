@@ -7,6 +7,7 @@ import HeroSection from "./HeroSection";
 import HowTucWorkSection from "./HowTucWorkSection";
 import MissionStatement from "./MissionStatement";
 import TUCEvolution from "./TUCEvolution";
+import TUCHowToEngage from "./TUCHowToEngage";
 import WhatExistsSection from "./WhatExistsSection";
 import WhatIsTucSection from "./WhatIsTucSection";
 import WhatMakesDifferentSection from "./WhatMakesDifferentSection";
@@ -43,6 +44,7 @@ const LandingPage = () => {
       />
 
       <WhatMakesPossibleSection whatMakesPossibleData={whatMakesPossibleData} />
+      <TUCHowToEngage />
       <Footer footerData={footerData} />
       <ScrollToTopButton />
     </>
