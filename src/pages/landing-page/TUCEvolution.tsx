@@ -4,38 +4,26 @@ const evolutionPoints = [
   {
     title: "Small Core Team",
     content:
-      "TUC was built deliberately by a small core team, shaped through years of real-world use, reflection, and iteration rather than a single launch or campaign. Its direction emerged from doing the work first—testing ideas, observing what failed or fragmented, and refining what proved useful.",
+      "A small core team responsible for coherence, continuity, and long-term integrity",
     color: "bg-deep-blue",
   },
   {
     title: "AlphaBeta Contributors",
     content:
-      "Hundreds of AlphaBeta contributors influenced TUC’s development by participating in discussions, pilots, and early experiments",
+      "Hundreds of AlphaBeta contributors who influenced TUC through pilots, discussions, and early experiments",
     color: "bg-purple-500",
   },
   {
     title: "Organic Contributions",
     content:
-      "Contributions came both knowingly and unknowingly, through real engagement rather than formal recruitment",
+      "Contributions made both knowingly and unknowingly through real-world engagement",
     color: "bg-orange-400",
   },
   {
     title: "Patience Over Hype",
     content:
-      "Progress favored learning, patience, and durability over speed, visibility, or hype",
+      "Participation remains voluntary, self-motivated, and paced to respect real human capacity",
     color: "bg-deep-blue",
-  },
-  {
-    title: "Voluntary Participation",
-    content:
-      "Participation remained voluntary and self-motivated, respecting real human limits and capacity",
-    color: "bg-purple-500",
-  },
-  {
-    title: "Cumulative Effort",
-    content:
-      "What exists today is the result of accumulated effort, quiet collaboration, and sustained attention over time. TUC reflects lessons learned from fragmentation, burnout, and lost potential—and was shaped intentionally to avoid repeating those patterns as it continues to evolve.",
-    color: "bg-orange-400",
   },
 ];
 
