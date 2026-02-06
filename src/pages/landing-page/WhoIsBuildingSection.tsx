@@ -39,43 +39,6 @@ const WhoIsBuildingSection = ({
 
           <div className="w-20 sm:w-24 h-1 bg-deep-blue mx-auto mb-4 sm:mb-6" />
         </div>
-
-        {/* Team Grid */}
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-10 lg:mb-12">
-          {teamMembers.map((member) => (
-            <div
-              key={member.email}
-              className="bg-white border border-cool-gray rounded-lg p-6 sm:p-8"
-            >
-              <div className="flex flex-col sm:flex-row sm:items-center mb-5">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover mb-4 sm:mb-0 sm:mr-6 mx-auto sm:mx-0"
-                />
-
-                <div className="text-center sm:text-left">
-                  <h3 className="text-xl sm:text-2xl font-semibold text-dark-gray">
-                    {member.name}
-                  </h3>
-                  <p className="text-medium-gray font-medium">{member.role}</p>
-                </div>
-              </div>
-
-              <p className="text-medium-gray leading-relaxed mb-4 text-sm sm:text-base">
-                {member.description}
-              </p>
-
-              <div className="flex justify-center sm:justify-start">
-                <span className="flex items-center text-sm text-medium-gray">
-                  <i className="fa-solid fa-envelope mr-2 text-deep-blue"></i>
-                  {member.email}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div> */}
-
         {/* Culture Section */}
         <div className="bg-pale-blue border border-cool-gray rounded-lg p-6 sm:p-8 lg:p-10">
           <p className="text-base sm:text-lg text-medium-gray leading-relaxed max-w-3xl mx-auto mb-4 last:mb-0">

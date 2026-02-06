@@ -92,7 +92,7 @@ const HowTucWorkSection = ({ howTucWorksSection }: HowTucWorkSection) => {
   return (
     <section
       id="how-tuc-works-section"
-      className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white border-y border-cool-gray"
+      className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8  border-y border-cool-gray"
     >
       <div className="max-w-6xl mx-auto">
         {/* HEADER */}

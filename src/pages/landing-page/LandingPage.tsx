@@ -6,6 +6,7 @@ import TUCMeetsYouWhereYouAre from "./ TUCMeetsYouWhereYouAre";
 import HeroSection from "./HeroSection";
 import HowTucWorkSection from "./HowTucWorkSection";
 import MissionStatement from "./MissionStatement";
+import TUCEvolution from "./TUCEvolution";
 import WhatExistsSection from "./WhatExistsSection";
 import WhatIsTucSection from "./WhatIsTucSection";
 import WhatMakesDifferentSection from "./WhatMakesDifferentSection";
@@ -33,12 +34,13 @@ const LandingPage = () => {
       <WhatTuc />
       <WhatIsTucSection whatIsTucSection={whatIsTucSection} />
       <TUCMeetsYouWhereYouAre />
+      <WhoIsBuildingSection whoIsBuildingSection={whoIsBuildingTucSection} />
+      <TUCEvolution />
       <HowTucWorkSection howTucWorksSection={howTucWorksSection} />
       <WhatExistsSection whatExistsSection={whatExistsSection} />
       <WhatMakesDifferentSection
       // whatMakesDifferentData={whatMakesDifferentData}
       />
-      <WhoIsBuildingSection whoIsBuildingSection={whoIsBuildingTucSection} />
 
       <WhatMakesPossibleSection whatMakesPossibleData={whatMakesPossibleData} />
       <Footer footerData={footerData} />
