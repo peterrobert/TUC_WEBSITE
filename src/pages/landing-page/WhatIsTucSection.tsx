@@ -37,18 +37,7 @@ const WhatIsTucSection = ({ whatIsTucSection }: WhatIsTucSectionProps) => {
   return (
     <section id="what-tuc-is-section" className="py-14 sm:py-20 px-4 sm:px-8">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-dark-gray mb-3 sm:mb-4">
-            {title}
-          </h2>
-          <div className="w-16 sm:w-24 h-1 bg-deep-blue mx-auto"></div>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 sm:mb-16">
-          {displayIntroCards}
-        </div>
-
-        <div className="bg-white border border-cool-gray rounded-lg p-6 sm:p-10 md:p-12">
+        <div className="bg-white border border-cool-gray rounded-lg p-6 sm:p-10 md:p-12 pb-3.5">
           <h3 className="text-xl sm:text-2xl md:text-3xl font-serif font-bold text-dark-gray mb-4 sm:mb-6">
             {mainContent.heading}
           </h3>
@@ -78,6 +67,17 @@ const WhatIsTucSection = ({ whatIsTucSection }: WhatIsTucSectionProps) => {
               );
             })}
           </div>
+        </div>
+
+        <div className="text-center mb-12 sm:mb-16 pt-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-dark-gray mb-3 sm:mb-4">
+            {title}
+          </h2>
+          <div className="w-16 sm:w-24 h-1 bg-deep-blue mx-auto"></div>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 sm:mb-16">
+          {displayIntroCards}
         </div>
       </div>
     </section>
