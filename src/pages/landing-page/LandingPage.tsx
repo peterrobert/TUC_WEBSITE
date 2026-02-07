@@ -14,6 +14,7 @@ import WhatMakesDifferentSection from "./WhatMakesDifferentSection";
 import WhatMakesPossibleSection from "./WhatMakesPossibleSection";
 import WhatTuc from "./WhatTuc";
 import WhoIsBuildingSection from "./WhoIsBuildingSection";
+import WhyTUCExists from "./whyTucExists";
 import WhyTucSection from "./WhyTucSection";
 
 const LandingPage = () => {
@@ -32,6 +33,7 @@ const LandingPage = () => {
       <HeroSection heroSection={heroSection} />
       <MissionStatement whyTucSection={whyTucSection} />
       <WhyTucSection whyTucSection={whyTucSection} />
+      <WhyTUCExists />
       <WhatTuc />
       <WhatIsTucSection whatIsTucSection={whatIsTucSection} />
       <TUCMeetsYouWhereYouAre />
@@ -42,7 +44,6 @@ const LandingPage = () => {
       <WhatMakesDifferentSection
       // whatMakesDifferentData={whatMakesDifferentData}
       />
-
       <WhatMakesPossibleSection whatMakesPossibleData={whatMakesPossibleData} />
       <TUCHowToEngage />
       <Footer footerData={footerData} />
