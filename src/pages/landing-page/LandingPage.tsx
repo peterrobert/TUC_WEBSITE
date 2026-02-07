@@ -8,6 +8,7 @@ import HowTucWorkSection from "./HowTucWorkSection";
 import MissionStatement from "./MissionStatement";
 import TUCEvolution from "./TUCEvolution";
 import TUCHowToEngage from "./TUCHowToEngage";
+import TUCQuietLanding from "./TUCSoftClosingAndVision";
 import WhatExistsSection from "./WhatExistsSection";
 import WhatIsTucSection from "./WhatIsTucSection";
 import WhatMakesDifferentSection from "./WhatMakesDifferentSection";
@@ -46,6 +47,7 @@ const LandingPage = () => {
       />
       <WhatMakesPossibleSection whatMakesPossibleData={whatMakesPossibleData} />
       <TUCHowToEngage />
+      <TUCQuietLanding />
       <Footer footerData={footerData} />
       <ScrollToTopButton />
     </>
