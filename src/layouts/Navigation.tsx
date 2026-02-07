@@ -5,14 +5,14 @@ const navigation = [
     label: "Overview",
     path: "/",
   },
+  {
+    label: "About",
+    path: "/about",
+  },
 
   {
     label: "Workflow",
     path: "/workflow",
-  },
-  {
-    label: "About",
-    path: "/about",
   },
 ];
 
