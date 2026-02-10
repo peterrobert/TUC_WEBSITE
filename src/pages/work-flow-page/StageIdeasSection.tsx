@@ -119,13 +119,23 @@ const StageIdeasSection = () => {
 
         {/* QUOTE BLOCK */}
         <div className="bg-deep-blue text-white rounded-xl p-5 sm:p-8 lg:p-10 text-center">
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl font-serif leading-relaxed max-w-xl sm:max-w-2xl lg:max-w-4xl mx-auto">
-            "Each stage serves a specific purpose: filtering noise, adding
-            structure, maintaining attribution, and ensuring resources flow to
-            valuable work. The pipeline reduces waste by preventing premature
-            commitment and ensuring ideas are evaluated before execution
-            begins."
-          </p>
+          <div className="max-w-xl sm:max-w-2xl lg:max-w-4xl mx-auto space-y-4 sm:space-y-5">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl font-serif leading-relaxed">
+              This is the shared path work follows inside TUC. Each stage adds
+              clarity, reduces coordination waste, and keeps useful work
+              visible.
+            </p>
+
+            <p className="text-sm sm:text-base md:text-lg font-serif leading-relaxed">
+              <span className="font-semibold">Explore Level 2:</span> See how
+              each stage works in practice through real views and examples.
+            </p>
+
+            <p className="text-sm sm:text-base md:text-lg font-serif leading-relaxed">
+              <span className="font-semibold">Explore Level 3:</span> Learn why
+              this pipeline is structured this way.
+            </p>
+          </div>
         </div>
       </div>
     </section>
