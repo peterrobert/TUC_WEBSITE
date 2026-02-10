@@ -5,6 +5,7 @@ import ComparisonSection from "./ComparisonSection";
 import HeroSection from "./HeroSection";
 import StageIdeasSection from "./StageIdeasSection";
 import StageProjectsSection from "./StageProjectsSection";
+import StageResultsSection from "./StageResultsSection";
 import StageSuggestionsSection from "./StageSuggestionsSection";
 import StageTasksSection from "./StageTasksSection";
 import StageTop10Section from "./StageTop10Section";
@@ -20,6 +21,7 @@ const WorkFlowPage = () => {
       <StageTop10Section />
       <StageProjectsSection />
       <StageTasksSection />
+      <StageResultsSection />
       <ComparisonSection />
       <Footer footerData={footerData} />
       <ScrollToTopButton />
