@@ -9,97 +9,134 @@ const StageProjectsSection = () => {
           {/* LEFT PANEL */}
           <div className="bg-pale-blue border-2 border-deep-blue rounded-xl p-4 sm:p-6 lg:p-8">
             <h4 className="text-base sm:text-lg lg:text-xl font-semibold text-dark-gray mb-4 sm:mb-6">
-              Example Use Case
+              Example Use Case — From Signal to Project
             </h4>
 
             <div className="bg-white rounded-lg p-4 sm:p-6 border border-cool-gray">
+              {/* Header */}
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
                 <h5 className="text-base sm:text-lg lg:text-xl font-semibold text-dark-gray">
-                  Related Suggestions Feature
+                  3-Level Design System
                 </h5>
 
-                <span className="w-fit px-2 sm:px-3 py-1 bg-dark-cyan text-white text-xs sm:text-sm rounded-full">
-                  In Progress
+                <span
+                  className="
+        inline-flex items-center justify-center
+        px-2 sm:px-2.5 py-0.5
+        bg-dark-cyan text-white
+        text-xs sm:text-sm
+        leading-none whitespace-nowrap
+        rounded-full
+      "
+                >
+                  Active Project
                 </span>
               </div>
 
+              {/* Source Signals */}
               <div className="grid grid-cols-2 gap-3 sm:gap-4 mb-4">
                 <div className="bg-pale-blue rounded-lg p-3">
-                  <p className="text-xs text-medium-gray mb-1">Timeline</p>
+                  <p className="text-xs text-medium-gray mb-1">Source</p>
                   <p className="font-semibold text-sm sm:text-base text-dark-gray">
-                    6 weeks
+                    Suggestions & Top10
                   </p>
                 </div>
 
                 <div className="bg-pale-blue rounded-lg p-3">
-                  <p className="text-xs text-medium-gray mb-1">Team Size</p>
+                  <p className="text-xs text-medium-gray mb-1">Impact</p>
                   <p className="font-semibold text-sm sm:text-base text-dark-gray">
-                    4 members
+                    High (Clarity & Trust)
                   </p>
                 </div>
 
                 <div className="bg-pale-blue rounded-lg p-3">
-                  <p className="text-xs text-medium-gray mb-1">Progress</p>
+                  <p className="text-xs text-medium-gray mb-1">Focus</p>
                   <p className="font-semibold text-sm sm:text-base text-dark-gray">
-                    40%
+                    Sequencing & Signals
                   </p>
                 </div>
 
                 <div className="bg-pale-blue rounded-lg p-3">
-                  <p className="text-xs text-medium-gray mb-1">Phase</p>
+                  <p className="text-xs text-medium-gray mb-1">Outcome</p>
                   <p className="font-semibold text-sm sm:text-base text-dark-gray">
-                    Development
+                    Coordinated Execution
                   </p>
                 </div>
               </div>
 
+              {/* Signals surfaced */}
               <div className="space-y-2 mb-4">
+                <div className="flex items-start text-xs sm:text-sm">
+                  <i className="fa-solid fa-circle-check text-dark-cyan mr-2 mt-0.5"></i>
+                  <span className="text-medium-gray">
+                    Esther flagged inconsistency across headings, spacing,
+                    colors, CTAs, and visual hierarchy.
+                  </span>
+                </div>
+
+                <div className="flex items-start text-xs sm:text-sm">
+                  <i className="fa-solid fa-circle-check text-dark-cyan mr-2 mt-0.5"></i>
+                  <span className="text-medium-gray">
+                    Frankie noted early complexity created friction for
+                    first-time visitors.
+                  </span>
+                </div>
+
+                <div className="flex items-start text-xs sm:text-sm">
+                  <i className="fa-solid fa-circle-check text-dark-cyan mr-2 mt-0.5"></i>
+                  <span className="text-medium-gray">
+                    These signals repeated and rose into the Top10 as
+                    high-impact red flags.
+                  </span>
+                </div>
+              </div>
+
+              {/* Project intent */}
+              <div className="space-y-2 mb-4">
+                <p className="text-sm sm:text-base text-dark-gray font-medium">
+                  Why this project exists
+                </p>
+                <p className="text-xs sm:text-sm text-medium-gray leading-relaxed">
+                  Users were being asked to think at different depths without
+                  clear orientation. The issue wasn’t content quality — it was
+                  sequencing, signaling, and access.
+                </p>
+              </div>
+
+              {/* Goal */}
+              <div className="space-y-2 mb-4">
+                <p className="text-sm sm:text-base text-dark-gray font-medium">
+                  Project Goal
+                </p>
+
                 <div className="flex items-center text-xs sm:text-sm">
                   <i className="fa-solid fa-circle-check text-dark-cyan mr-2"></i>
                   <span className="text-medium-gray">
-                    Requirements documented
+                    Orient first-time visitors (Level 1)
                   </span>
                 </div>
 
                 <div className="flex items-center text-xs sm:text-sm">
                   <i className="fa-solid fa-circle-check text-dark-cyan mr-2"></i>
-                  <span className="text-medium-gray">Design approved</span>
-                </div>
-
-                <div className="flex items-center text-xs sm:text-sm">
-                  <i className="fa-solid fa-spinner text-deep-blue mr-2"></i>
-                  <span className="text-dark-gray font-medium">
-                    Backend implementation
+                  <span className="text-medium-gray">
+                    Support practical understanding and participation (Level 2)
                   </span>
                 </div>
 
-                <div className="flex items-center text-xs sm:text-sm opacity-50">
-                  <i className="fa-regular fa-circle text-cool-gray mr-2"></i>
-                  <span className="text-medium-gray">Testing & QA</span>
+                <div className="flex items-center text-xs sm:text-sm">
+                  <i className="fa-solid fa-circle-check text-dark-cyan mr-2"></i>
+                  <span className="text-medium-gray">
+                    Preserve full system depth without overwhelm (Level 3)
+                  </span>
                 </div>
               </div>
 
-              <div className="flex items-center space-x-2">
-                <img
-                  src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg"
-                  alt="Team"
-                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover"
-                />
-                <img
-                  src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-3.jpg"
-                  alt="Team"
-                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover"
-                />
-                <img
-                  src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg"
-                  alt="Team"
-                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover"
-                />
-                <img
-                  src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg"
-                  alt="Team"
-                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover"
-                />
+              {/* Blue box copy */}
+              <div className="bg-deep-blue rounded-lg p-3 text-xs sm:text-sm text-white leading-relaxed">
+                Projects in TUC don’t start from assumptions — they start from
+                shared signals. By letting suggestions and Top10s shape
+                execution, work moves faster, stays relevant, and reflects the
+                people it’s built for.
               </div>
             </div>
           </div>
@@ -116,7 +153,8 @@ const StageProjectsSection = () => {
                   Projects
                 </h2>
                 <p className="text-sm sm:text-base text-medium-gray font-medium">
-                  Stage 4: Active Initiatives
+                  Stage 4: Active Initiatives · Coordinated Execution · Visible
+                  Progress
                 </p>
               </div>
             </div>
@@ -127,9 +165,10 @@ const StageProjectsSection = () => {
                   Purpose
                 </h4>
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Execute on prioritized suggestions with dedicated teams, clear
-                  objectives, and defined timelines. Projects have committed
-                  resources and active management to ensure completion.
+                  Turn prioritized signals into real work. Projects exist to
+                  execute on what the community has already aligned around—using
+                  clear ownership, shared context, and transparent progress so
+                  effort compounds instead of resetting.
                 </p>
               </div>
 
@@ -138,9 +177,9 @@ const StageProjectsSection = () => {
                   Input
                 </h4>
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Top10 suggestions with full scoping, team assignments,
-                  milestone definitions, and success criteria. Projects launch
-                  with clear ownership and accountability.
+                  Top10 items that have enough clarity, urgency, and support to
+                  move forward. Inputs include prioritized red flags 🚩, grouped
+                  suggestions, defined goals, and early success criteria.
                 </p>
               </div>
 
@@ -149,9 +188,10 @@ const StageProjectsSection = () => {
                   Output
                 </h4>
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Completed deliverables that move to the Results stage for
-                  impact measurement. Project outcomes are documented and
-                  attributed to all contributors.
+                  Active initiatives with committed contributors, scoped
+                  milestones, and visible progress. Outcomes are documented,
+                  measured, and attributed—then fed forward into Results and
+                  future iterations.
                 </p>
               </div>
             </div>

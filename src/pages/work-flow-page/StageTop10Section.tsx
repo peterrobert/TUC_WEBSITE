@@ -254,8 +254,9 @@ const StageTop10Section = () => {
             <div className="mt-4 sm:mt-6 p-3 sm:p-4 bg-deep-blue text-white rounded-lg">
               <p className="text-xs sm:text-sm">
                 <i className="fa-solid fa-info-circle mr-2"></i>
-                This ranking reflects real community input, helping the team
-                focus on the changes that unlock the most clarity first.
+                Top10 doesn’t lock decisions—it creates alignment. By making
+                priorities visible, teams reduce waste, act sooner, and improve
+                faster, while preserving alternative ideas and future options.
               </p>
             </div>
           </div>
