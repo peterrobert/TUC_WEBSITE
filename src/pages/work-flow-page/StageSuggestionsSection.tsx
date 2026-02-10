@@ -1,4 +1,3 @@
-import elbieImage from "../../assets/elbie.jpg";
 const StageSuggestionsSection = () => {
   return (
     <section
