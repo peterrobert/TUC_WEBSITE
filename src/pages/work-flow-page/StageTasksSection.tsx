@@ -18,7 +18,8 @@ const StageTasksSection = () => {
                   Tasks
                 </h2>
                 <p className="text-sm sm:text-base text-medium-gray font-medium">
-                  Stage 5: Specific Actions
+                  Stage 5: Specific Actions · Clear Ownership · Measurable
+                  Progress
                 </p>
               </div>
             </div>
@@ -29,9 +30,11 @@ const StageTasksSection = () => {
                   Purpose
                 </h4>
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Break projects into actionable work units that can be
-                  assigned, tracked, and completed. Tasks are the atomic units
-                  of execution—specific, measurable, and time-bound.
+                  Turn aligned projects into executable work. Tasks break shared
+                  intent into small, concrete actions that people can pick up,
+                  complete, and move forward—without needing to understand the
+                  entire system. Tasks are where contribution becomes visible
+                  and progress compounds.
                 </p>
               </div>
 
@@ -40,10 +43,18 @@ const StageTasksSection = () => {
                   Input
                 </h4>
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Project requirements decomposed into discrete actions with
-                  clear acceptance criteria, estimated effort, and dependencies
-                  mapped. Tasks are sized for completion within days, not weeks.
+                  Projects decomposed into discrete Job Tickets with:
                 </p>
+                <ul className="list-disc list-inside text-sm sm:text-base text-medium-gray mt-2 space-y-1">
+                  <li>A clear outcome</li>
+                  <li>Defined scope and dependencies</li>
+                  <li>Acceptance criteria</li>
+                  <li>Estimated effort sized in days, not weeks</li>
+                  <li>
+                    Each task represents one meaningful step forward—no
+                    ambiguity, no hidden work.
+                  </li>
+                </ul>
               </div>
 
               <div>
@@ -51,10 +62,16 @@ const StageTasksSection = () => {
                   Output
                 </h4>
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Completed tasks that aggregate into project deliverables. Each
-                  completed task contributes to measurable progress and
-                  maintains attribution to the contributor.
+                  Completed tasks roll up into project milestones and system
+                  improvements. Every task completed:
                 </p>
+                <ul className="list-disc list-inside text-sm sm:text-base text-medium-gray mt-2 space-y-1">
+                  <li>Advances real progress</li>
+                  <li>Reduces friction for others</li>
+                  <li>
+                    Preserves attribution and learning for future contributors
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -62,61 +79,84 @@ const StageTasksSection = () => {
           {/* RIGHT PANEL */}
           <div className="bg-pale-blue border-2 border-dark-cyan rounded-xl p-4 sm:p-6 lg:p-8">
             <h4 className="text-base sm:text-lg lg:text-xl font-semibold text-dark-gray mb-4 sm:mb-6">
-              Example Use Case
+              Example Use Case — Tasks from the 3-Level Design Project
             </h4>
 
             <div className="space-y-3">
+              {/* JT-021 */}
               <div className="bg-white rounded-lg p-3 sm:p-4 border-l-4 border-dark-cyan">
                 <div className="flex items-start space-x-3">
                   <i className="fa-solid fa-circle-check text-dark-cyan text-lg sm:text-xl mt-1"></i>
                   <div>
                     <p className="font-semibold text-sm sm:text-base text-dark-gray">
-                      Design database schema for suggestion relationships
+                      JT-021 — Define Level 1 Orientation Rules
                     </p>
                     <p className="text-xs sm:text-sm text-medium-gray mt-1">
-                      Completed by Marcus T. • 2 days ago
+                      Clarify what content belongs in Level 1<br />
+                      Define heading hierarchy, spacing, and CTA placement
+                      <br />
+                      Output: documented Level 1 design rules used across the
+                      site
                     </p>
                   </div>
                 </div>
               </div>
 
+              {/* JT-022 */}
               <div className="bg-white rounded-lg p-3 sm:p-4 border-l-4 border-deep-blue">
                 <div className="flex items-start space-x-3">
                   <i className="fa-solid fa-spinner text-deep-blue text-lg sm:text-xl mt-1"></i>
                   <div>
                     <p className="font-semibold text-sm sm:text-base text-dark-gray">
-                      Implement keyword extraction algorithm
+                      JT-022 — Design Level 2 Engagement Patterns
                     </p>
                     <p className="text-xs sm:text-sm text-medium-gray mt-1">
-                      Assigned to Sarah M. • Due in 3 days
+                      Identify interactive elements that support participation
+                      without overload
+                      <br />
+                      Standardize buttons, highlights, and navigation cues
+                      <br />
+                      Output: reusable Level 2 UI patterns
                     </p>
                   </div>
                 </div>
               </div>
 
+              {/* JT-023 */}
               <div className="bg-white rounded-lg p-3 sm:p-4 border-l-4 border-cool-gray opacity-60">
                 <div className="flex items-start space-x-3">
                   <i className="fa-regular fa-circle text-cool-gray text-lg sm:text-xl mt-1"></i>
                   <div>
                     <p className="font-semibold text-sm sm:text-base text-dark-gray">
-                      Build UI for related suggestions sidebar
+                      JT-023 — Map Level 3 Deep-Dive Structure
                     </p>
                     <p className="text-xs sm:text-sm text-medium-gray mt-1">
-                      Unassigned • Blocked by #247
+                      Define how advanced users access full system depth
+                      <br />
+                      Ensure Level 3 is discoverable but never forced
+                      <br />
+                      Output: clear Level 3 entry points and layout guidelines
                     </p>
                   </div>
                 </div>
               </div>
 
+              {/* Source Signals */}
               <div className="bg-white rounded-lg p-3 sm:p-4 border-l-4 border-cool-gray opacity-60">
                 <div className="flex items-start space-x-3">
                   <i className="fa-regular fa-circle text-cool-gray text-lg sm:text-xl mt-1"></i>
                   <div>
                     <p className="font-semibold text-sm sm:text-base text-dark-gray">
-                      Write integration tests for linking feature
+                      Source Signals
                     </p>
                     <p className="text-xs sm:text-sm text-medium-gray mt-1">
-                      Unassigned • Estimated 2 days
+                      Esther flagged inconsistency across layout, hierarchy,
+                      spacing, and CTAs
+                      <br />
+                      Frankie flagged early complexity creating drop-off
+                      <br />
+                      These signals became a Top10 priority and were scoped into
+                      a project.
                     </p>
                   </div>
                 </div>
@@ -126,8 +166,10 @@ const StageTasksSection = () => {
             <div className="mt-4 sm:mt-6 p-3 sm:p-4 bg-dark-cyan text-white rounded-lg">
               <p className="text-xs sm:text-sm">
                 <i className="fa-solid fa-info-circle mr-2"></i>
-                Smart task logic automatically surfaces available tasks based on
-                contributor skills and availability.
+                Tasks are where TUC’s philosophy becomes practical. By letting
+                people do only what they can, work moves faster, waste drops,
+                and better solutions emerge—without pressure, hierarchy, or
+                bottlenecks.
               </p>
             </div>
           </div>
