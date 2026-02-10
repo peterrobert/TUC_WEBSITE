@@ -18,7 +18,7 @@ const StageTop10Section = () => {
                   Top10
                 </h2>
                 <p className="text-sm sm:text-base text-medium-gray font-medium">
-                  Stage 3: Prioritization
+                  Stage 3: Prioritization · Shared Signals · Coordinated Action
                 </p>
               </div>
             </div>
@@ -29,10 +29,10 @@ const StageTop10Section = () => {
                   Purpose
                 </h4>
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Surface the most valuable suggestions through systematic
-                  evaluation and community input. The Top10 represents work
-                  that's ready for development—high impact, feasible, and
-                  aligned with system priorities.
+                  Surface what matters most right now by translating collective
+                  input into visible priorities. Top10 helps teams focus effort
+                  without pretending there is only one correct answer holding
+                  space for tradeoffs, alternatives, and evolving context.
                 </p>
               </div>
 
@@ -41,9 +41,10 @@ const StageTop10Section = () => {
                   Input
                 </h4>
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Evaluated suggestions with community feedback, impact scores,
-                  feasibility assessments, and resource estimates. Only
-                  suggestions that meet quality thresholds enter consideration.
+                  Evaluated suggestions with community feedback, red flags 🚩,
+                  impact signals, feasibility awareness, and relevance to
+                  current goals. Inputs may include multiple competing options
+                  addressing the same underlying problem.
                 </p>
               </div>
 
@@ -52,9 +53,10 @@ const StageTop10Section = () => {
                   Output
                 </h4>
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Prioritized list of suggestions ready to become projects.
-                  Top10 items receive resources, team formation support, and
-                  move into active development.
+                  A prioritized Top10 list that highlights where attention,
+                  discussion, and resources should go first. Top10 items remain
+                  open to remix, refinement, and replacement as conditions
+                  change.
                 </p>
               </div>
             </div>
