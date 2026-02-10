@@ -39,24 +39,28 @@ const StageIdeasSection = () => {
                 title: "Projects",
                 desc: "Active initiatives",
               },
-            ].map((item, index) => (
-              <div
-                key={index}
-                className="flex-1 text-center pipeline-connector"
-              >
-                <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-gradient-to-br from-deep-blue to-bright-blue rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4 shadow-lg">
-                  <i
-                    className={`fa-solid ${item.icon} text-white text-lg sm:text-2xl lg:text-3xl`}
-                  ></i>
+            ].map((item, index, arr) => (
+              <div key={index} className="flex items-center flex-1">
+                <div className="text-center pipeline-connector flex-1">
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-gradient-to-br from-deep-blue to-bright-blue rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4 shadow-lg">
+                    <i
+                      className={`fa-solid ${item.icon} text-white text-lg sm:text-2xl lg:text-3xl`}
+                    ></i>
+                  </div>
+
+                  <h4 className="text-sm sm:text-base lg:text-lg font-semibold text-dark-gray mb-1">
+                    {item.title}
+                  </h4>
+
+                  <p className="text-xs sm:text-sm text-medium-gray">
+                    {item.desc}
+                  </p>
                 </div>
 
-                <h4 className="text-sm sm:text-base lg:text-lg font-semibold text-dark-gray mb-1">
-                  {item.title}
-                </h4>
-
-                <p className="text-xs sm:text-sm text-medium-gray">
-                  {item.desc}
-                </p>
+                {/* RIGHT ARROW (except last item) */}
+                {index < arr.length - 1 && (
+                  <i className="fa-solid fa-arrow-right hidden md:block text-deep-blue text-xl mx-4"></i>
+                )}
               </div>
             ))}
           </div>
@@ -84,24 +88,28 @@ const StageIdeasSection = () => {
                 title: "Ripple Effects",
                 desc: "Extended impact",
               },
-            ].map((item, index) => (
-              <div
-                key={index}
-                className="flex-1 text-center pipeline-connector"
-              >
-                <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-gradient-to-br from-dark-cyan to-green-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4 shadow-lg">
-                  <i
-                    className={`fa-solid ${item.icon} text-white text-lg sm:text-2xl lg:text-3xl`}
-                  ></i>
+            ].map((item, index, arr) => (
+              <div key={index} className="flex items-center flex-1">
+                <div className="text-center pipeline-connector flex-1">
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-gradient-to-br from-dark-cyan to-green-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4 shadow-lg">
+                    <i
+                      className={`fa-solid ${item.icon} text-white text-lg sm:text-2xl lg:text-3xl`}
+                    ></i>
+                  </div>
+
+                  <h4 className="text-sm sm:text-base lg:text-lg font-semibold text-dark-gray mb-1">
+                    {item.title}
+                  </h4>
+
+                  <p className="text-xs sm:text-sm text-medium-gray">
+                    {item.desc}
+                  </p>
                 </div>
 
-                <h4 className="text-sm sm:text-base lg:text-lg font-semibold text-dark-gray mb-1">
-                  {item.title}
-                </h4>
-
-                <p className="text-xs sm:text-sm text-medium-gray">
-                  {item.desc}
-                </p>
+                {/* RIGHT ARROW (except last item) */}
+                {index < arr.length - 1 && (
+                  <i className="fa-solid fa-arrow-right hidden md:block text-deep-blue text-xl mx-4"></i>
+                )}
               </div>
             ))}
 
