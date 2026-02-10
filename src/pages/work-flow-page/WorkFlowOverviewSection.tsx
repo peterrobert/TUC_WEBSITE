@@ -1,3 +1,5 @@
+import estherImage from "../../assets/esther.jpg";
+import elbieImage from "../../assets/elbie.jpg";
 const WorkFlowOverviewSection = () => {
   return (
     <section
@@ -19,7 +21,7 @@ const WorkFlowOverviewSection = () => {
                   Ideas
                 </h2>
                 <p className="text-sm sm:text-base text-medium-gray font-medium">
-                  Stage 1: Raw Thinking
+                  Stage 1: Collection · Engagement · Collective Thinking
                 </p>
               </div>
             </div>
@@ -32,8 +34,8 @@ const WorkFlowOverviewSection = () => {
                 </h4>
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
                   Capture unfiltered thinking from anyone in the community.
-                  Ideas are observations, possibilities, or questions—not yet
-                  structured proposals. This stage values quantity and diversity
+                  Ideas can be observations, possibilities, or questions—not yet
+                  structured proposals. This stage values volume and diversity
                   over polish.
                 </p>
               </div>
@@ -43,9 +45,9 @@ const WorkFlowOverviewSection = () => {
                   Input
                 </h4>
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Raw thoughts, observations, "what if" questions, pain points,
-                  opportunities. No formal structure required. Can be a single
-                  sentence or a paragraph.
+                  Raw thoughts, observations, “what if” questions, pain points,
+                  and opportunities. No formal structure required. A single
+                  sentence or a short paragraph is enough.
                 </p>
               </div>
 
@@ -54,7 +56,7 @@ const WorkFlowOverviewSection = () => {
                   Output
                 </h4>
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Ideas that resonate or show promise move to the Suggestion
+                  Ideas that resonate or show promise move to the Suggestions
                   stage for development. Others remain visible in the idea
                   repository for future reference.
                 </p>
@@ -72,38 +74,13 @@ const WorkFlowOverviewSection = () => {
             <div className="bg-white rounded-lg p-4 sm:p-6 mb-4 border border-cool-gray">
               <div className="flex items-start space-x-3 mb-3">
                 <img
-                  src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg"
+                  src={estherImage}
                   alt="User"
                   className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover"
                 />
                 <div>
                   <p className="font-medium text-sm sm:text-base text-dark-gray">
-                    Sarah M.
-                  </p>
-                  <p className="text-xs sm:text-sm text-medium-gray">
-                    2 days ago
-                  </p>
-                </div>
-              </div>
-
-              <p className="text-sm sm:text-base text-medium-gray italic">
-                "What if we had a way to see which suggestions are related to
-                each other? Sometimes I submit an idea and later realize someone
-                else had a similar thought months ago."
-              </p>
-            </div>
-
-            {/* CARD 2 */}
-            <div className="bg-white rounded-lg p-4 sm:p-6 border border-cool-gray">
-              <div className="flex items-start space-x-3 mb-3">
-                <img
-                  src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-3.jpg"
-                  alt="User"
-                  className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover"
-                />
-                <div>
-                  <p className="font-medium text-sm sm:text-base text-dark-gray">
-                    Marcus T.
+                    Esther
                   </p>
                   <p className="text-xs sm:text-sm text-medium-gray">
                     5 days ago
@@ -112,17 +89,47 @@ const WorkFlowOverviewSection = () => {
               </div>
 
               <p className="text-sm sm:text-base text-medium-gray italic">
-                "The feedback loop on suggestions feels slow. Maybe we need
-                better notification systems when someone comments on our work?"
+                “I’m noticing consistency issues across the site. Section
+                headings, subheadings, spacing, and CTAs don’t follow a clear
+                pattern yet. When styles change from page to page—especially
+                colors, emphasis, and buttons—it makes the experience feel less
+                cohesive and harder to follow.”
+              </p>
+            </div>
+
+            {/* CARD 2 */}
+            <div className="bg-white rounded-lg p-4 sm:p-6 border border-cool-gray">
+              <div className="flex items-start space-x-3 mb-3">
+                <img
+                  src={elbieImage}
+                  alt="User"
+                  className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover"
+                />
+                <div>
+                  <p className="font-medium text-sm sm:text-base text-dark-gray">
+                    Elbie
+                  </p>
+                  <p className="text-xs sm:text-sm text-medium-gray">
+                    2 days ago
+                  </p>
+                </div>
+              </div>
+
+              <p className="text-sm sm:text-base text-medium-gray italic">
+                “I didn’t feel a clear hook at the beginning. I understand the
+                system, but nothing immediately pulled me in or explained why I
+                should care right away.”
               </p>
             </div>
 
             {/* INFO BOX */}
             <div className="mt-4 sm:mt-6 p-3 sm:p-4 bg-deep-blue text-white rounded-lg">
               <p className="text-xs sm:text-sm">
-                <i className="fa-solid fa-info-circle mr-2"></i>Both ideas show
-                promise and could be developed into structured suggestions with
-                more detail and context.
+                <i className="fa-solid fa-info-circle mr-2"></i>
+                These early observations are captured in one shared
+                place—surfacing patterns in clarity, consistency, and engagement
+                early. By sharing their perspectives, contributors help the
+                system improve for everyone, building with people, not for them.
               </p>
             </div>
           </div>

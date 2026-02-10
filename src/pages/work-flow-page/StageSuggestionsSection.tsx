@@ -1,3 +1,4 @@
+import elbieImage from "../../assets/elbie.jpg";
 const StageSuggestionsSection = () => {
   return (
     <section
@@ -15,66 +16,58 @@ const StageSuggestionsSection = () => {
             <div className="bg-white rounded-lg p-4 sm:p-6 border border-cool-gray">
               <div className="flex items-center justify-between mb-4">
                 <span className="px-2 sm:px-3 py-1 bg-deep-blue text-white text-xs sm:text-sm rounded-full font-medium">
-                  Suggestion #247
+                  Framed Suggestion
                 </span>
                 <span className="text-xs sm:text-sm text-medium-gray">
-                  Under Review
+                  Elbie
                 </span>
               </div>
 
               <h5 className="text-base sm:text-lg font-semibold text-dark-gray mb-3">
-                Implement Related Suggestions Feature
+                Missing Hook at the Beginning
               </h5>
 
               <div className="space-y-3 text-xs sm:text-sm text-medium-gray">
                 <div>
-                  <p className="font-medium text-dark-gray mb-1">Problem:</p>
+                  <p className="font-medium text-dark-gray mb-1">
+                    Observation:
+                  </p>
                   <p>
-                    Users can't easily discover related or duplicate
-                    suggestions, leading to fragmented discussions and redundant
-                    work.
+                    “There’s no strong hook at the beginning. Users don’t
+                    immediately understand why TUC matters or what to pay
+                    attention to first.”
                   </p>
                 </div>
 
                 <div>
-                  <p className="font-medium text-dark-gray mb-1">
-                    Proposed Solution:
-                  </p>
+                  <p className="font-medium text-dark-gray mb-1">Reframing:</p>
                   <p>
-                    Add automatic suggestion linking based on keywords and
-                    manual linking by users. Display related suggestions in a
-                    sidebar.
+                    What began as a quick observation is quickly reframed into
+                    an immediate, shared solution—clarifying early relevance
+                    before the problem compounds. One person flags the issue;
+                    others help shape the response.
                   </p>
                 </div>
 
                 <div>
-                  <p className="font-medium text-dark-gray mb-1">
-                    Expected Impact:
-                  </p>
+                  <p className="font-medium text-dark-gray mb-1">Outcome:</p>
                   <p>
-                    Reduce duplicate submissions by 40%, improve context for
-                    evaluators, strengthen idea clustering.
+                    Instead of waiting for perfect answers, progress happens
+                    through collective clarity.
                   </p>
                 </div>
               </div>
 
-              <div className="mt-4 pt-4 border-t border-cool-gray flex items-center justify-between">
-                <div className="flex items-center space-x-3 sm:space-x-4 text-xs sm:text-sm">
-                  <span className="flex items-center text-medium-gray">
-                    <i className="fa-solid fa-thumbs-up mr-1 text-dark-cyan"></i>
-                    23
-                  </span>
-
-                  <span className="flex items-center text-medium-gray">
-                    <i className="fa-solid fa-comment mr-1 text-deep-blue"></i>8
-                  </span>
-                </div>
-
-                <img
-                  src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg"
-                  alt="Author"
-                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover"
-                />
+              <div className="mt-4 sm:mt-6 p-3 sm:p-4 bg-deep-blue text-white rounded-lg">
+                <p className="text-xs sm:text-sm">
+                  <i className="fa-solid fa-info-circle mr-2"></i>
+                  This is where TUC turns partial insight into real momentum. By
+                  allowing people to contribute what they can, holding multiple
+                  options, and acting early, teams reduce waste, lower friction,
+                  and move faster—growing the Efficiency of Things (EoT) and
+                  Value of Things (VoT) before effort compounds in the wrong
+                  direction.
+                </p>
               </div>
             </div>
           </div>
@@ -92,7 +85,7 @@ const StageSuggestionsSection = () => {
                 </h2>
 
                 <p className="text-sm sm:text-base text-medium-gray font-medium">
-                  Stage 2: Structured Proposals
+                  Stage 2: Problem Framing · Options · Impact
                 </p>
               </div>
             </div>
@@ -104,10 +97,11 @@ const StageSuggestionsSection = () => {
                 </h4>
 
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Transform raw ideas into structured proposals with context,
-                  rationale, and initial evaluation criteria. Suggestions are
-                  detailed enough for others to understand and evaluate but not
-                  yet fully scoped projects.
+                  Turn early signals into shared clarity and immediate leverage.
+                  This stage exists to quickly frame problems, surface viable
+                  options, and identify impact—without forcing premature fixes,
+                  rigid plans, or fully scoped projects. Clarity is allowed to
+                  emerge collectively, not required upfront.
                 </p>
               </div>
 
@@ -117,9 +111,11 @@ const StageSuggestionsSection = () => {
                 </h4>
 
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Problem statement, proposed solution, expected impact,
-                  relevant context, and any supporting evidence. Structured
-                  template ensures consistency and completeness.
+                  A clearly described issue, why it matters now, and any
+                  relevant context. Ideas do not need to be complete or
+                  well-formed—others may see solutions, options, or improvements
+                  you can’t. When people contribute what they can, the system
+                  does the rest.
                 </p>
               </div>
 
@@ -129,9 +125,12 @@ const StageSuggestionsSection = () => {
                 </h4>
 
                 <p className="text-sm sm:text-base text-medium-gray leading-relaxed">
-                  Suggestions that receive community support and pass evaluation
-                  criteria move to the Top10 prioritization queue. Others remain
-                  visible for future consideration or iteration.
+                  Clearly framed problems paired with visible options and
+                  anticipated impact. Some suggestions may move into
+                  prioritization through Top10, where alternatives can be
+                  compared side by side. Others remain active and visible for
+                  refinement, remixing, or future use—nothing is wasted or
+                  prematurely closed.
                 </p>
               </div>
             </div>
