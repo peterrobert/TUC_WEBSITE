@@ -1,0 +1,38 @@
+import { useEffect, useState } from "react";
+
+export function useScrollSpy(
+  sectionIds: string[],
+  threshold: number = 0.5
+): string | null {
+  const [activeId, setActiveId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!sectionIds || sectionIds.length === 0) return;
+
+    const observers: IntersectionObserver[] = [];
+
+    sectionIds.forEach((id: string) => {
+      const element = document.getElementById(id);
+      if (!element) return;
+
+      const observer = new IntersectionObserver(
+        (entries: IntersectionObserverEntry[]) => {
+          const entry = entries[0];
+          if (entry.isIntersecting) {
+            setActiveId(id);
+          }
+        },
+        { threshold }
+      );
+
+      observer.observe(element);
+      observers.push(observer);
+    });
+
+    return () => {
+      observers.forEach((observer) => observer.disconnect());
+    };
+  }, [sectionIds, threshold]);
+
+  return activeId;
+}

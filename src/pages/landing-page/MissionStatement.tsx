@@ -26,10 +26,7 @@ type WhyTucSectionProps = {
 const MissionStatement = ({ whyTucSection }: WhyTucSectionProps) => {
   const { mission } = whyTucSection;
   return (
-    <section
-      id="why-tuc-exists-section"
-      className="py-20 px-8  border-y border-cool-gray"
-    >
+    <section id="mission" className="py-20 px-8  border-y border-cool-gray">
       <div className="max-w-5xl mx-auto">
         <div className="bg-deep-blue text-white rounded-lg p-10">
           <h3 className="text-2xl font-serif font-bold mb-4">

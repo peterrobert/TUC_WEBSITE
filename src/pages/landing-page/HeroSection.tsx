@@ -14,10 +14,10 @@ const HeroSection = ({ heroSection }: HeroSectionProps) => {
 
   return (
     <section
-      id="hero-section"
-      className="min-h-130 sm:min-h-150 lg:min-h-170 flex items-center justify-center  px-4 sm:px-6 lg:px-8 bg-white"
+      id="hero"
+      className="min-h-130 sm:min-h-150 lg:min-h-170 flex items-center justify-center  px-4 sm:px-6 lg:px-8 bg-white "
     >
-      <div className="max-w-4xl mx-auto text-center">
+      <div className="max-w-4xl mx-auto text-center mt-10">
         {/* TITLE */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-dark-gray mb-4 sm:mb-6 leading-tight">
           {title}
