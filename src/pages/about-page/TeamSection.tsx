@@ -1,5 +1,6 @@
 import peterImage from "../../assets/peter.jpg";
 import jeffImage from "../../assets/jeff.jpeg";
+import estherImage from "../../assets/esther.jpg";
 
 const TeamSection = () => {
   return (
@@ -268,6 +269,101 @@ const TeamSection = () => {
                   understands how a global, uncorruptable opportunity network
                   grounded in practical learning could change outcomes not just
                   for himself, but for his family and others like them
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Esther */}
+          <div
+            id="team-member-peter"
+            className="bg-pale-blue border border-cool-gray rounded-lg p-6 sm:p-8 lg:p-10"
+          >
+            <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-4 mb-6 sm:mb-8">
+              <img
+                src={`${estherImage}`}
+                alt="Esther"
+                className="w-24 h-24 sm:w-32 sm:h-32 rounded-lg object-cover shrink-0"
+              />
+              <div className="text-center sm:text-left">
+                <h3 className="text-2xl sm:text-3xl font-serif font-bold text-dark-gray mb-1 sm:mb-2">
+                  Esther
+                </h3>
+                <p className="text-lg sm:text-xl text-medium-gray font-medium mb-2 sm:mb-4">
+                  Lead AlphaBeta Contributor
+                </p>
+                <div className="flex items-center justify-center sm:justify-start space-x-3 text-sm sm:text-base text-medium-gray">
+                  <span className="flex items-center">
+                    <i className="fa-solid fa-envelope mr-2 text-deep-blue"></i>
+                    esther@tuc.system
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-4 sm:space-y-6">
+              <div>
+                <h4 className="text-lg sm:text-xl font-semibold text-dark-gray mb-1 sm:mb-2">
+                  Role & Responsibilities
+                </h4>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  Esther is a lead AlphaBeta contributor to TUC, playing a
+                  sustained role in shaping its thinking around inclusion,
+                  real-world impact, and long-term responsibility. She brings a
+                  grounded, human-centered perspective to system
+                  design—consistently evaluating how ideas translate into
+                  practical outcomes for people most affected by fragmentation.
+                </p>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  Her role focuses on reviewing content, structure, and
+                  communication to surface blind spots, challenge assumptions,
+                  and ensure alignment between TUC’s principles and how the
+                  system is actually experienced. Esther’s contributions are
+                  influential but non-directive, strengthening decision-making
+                  through feedback, clarity, and ethical pressure-testing.
+                </p>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  She introduced the Business Model Canvas (BMC) into TUC
+                  discussions to support clearer thinking around value creation
+                  and sustainability, helping the team articulate trade-offs and
+                  assess coherence across initiatives.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-lg sm:text-xl font-semibold text-dark-gray mb-1 sm:mb-2">
+                  Philosophy
+                </h4>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  Esther believes systems should invite participation rather
+                  than demand performance. Clarity, accessibility, and
+                  psychological safety are essential for meaningful
+                  collaboration—especially in systems intended to serve
+                  under-resourced or under-networked communities.
+                </p>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  She evaluates TUC through an impact-first lens, asking not
+                  only whether ideas scale, but whether they remain fair,
+                  humane, and accountable over time.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-lg sm:text-xl font-semibold text-dark-gray mb-1 sm:mb-2">
+                  Background
+                </h4>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  With training in Criminology and Criminal Justice, Esther
+                  brings insight into how power, access, and institutional
+                  design affect behavior and opportunity. Her perspective helps
+                  TUC avoid replicating the very exclusionary patterns it aims
+                  to address.
+                </p>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  Her continued engagement reflects a commitment to ensuring
+                  that TUC’s growth does not come at the expense of clarity,
+                  inclusion, or trust—and that responsibility to affected
+                  communities remains central as the system evolves.
                 </p>
               </div>
             </div>
