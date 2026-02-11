@@ -70,7 +70,7 @@ const WhyTucSection = ({ whyTucSection }: WhyTucSectionProps) => {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
               {/* CARD 1 */}
-              <section id="insight-card-section" className="mb-8 lg:mb-0">
+              <div className="mb-8 lg:mb-0">
                 <div className="bg-white rounded-xl border border-divider shadow-sm p-10 h-full">
                   <div className="flex items-start space-x-4 mb-8">
                     <div className="flex-1">
@@ -81,7 +81,7 @@ const WhyTucSection = ({ whyTucSection }: WhyTucSectionProps) => {
                     </div>
                   </div>
 
-                  <div id="impact-section">
+                  <div>
                     <h3 className="font-semibold text-lg text-text-primary mb-6 flex items-center">
                       <i className="fa-solid fa-chart-line-down text-accent-primary mr-3"></i>
                       Because of this fragmentation:
@@ -128,10 +128,10 @@ const WhyTucSection = ({ whyTucSection }: WhyTucSectionProps) => {
                     </h3>
                   </div>
                 </div>
-              </section>
+              </div>
 
               {/* CARD 2 — Copy your second section here */}
-              <section id="insight-card-section-2">
+              <div>
                 <div className="bg-white rounded-xl border border-divider shadow-sm p-10 h-full">
                   <div className="flex items-start space-x-4 mb-8">
                     <div className="flex-1">
@@ -141,7 +141,7 @@ const WhyTucSection = ({ whyTucSection }: WhyTucSectionProps) => {
                       <div className="w-24 h-1 bg-accent-primary rounded-full"></div>
                     </div>
                   </div>
-                  <div id="impact-section">
+                  <div>
                     <ul className="space-y-4">
                       <li className="flex items-start">
                         <i className="fa-solid fa-circle text-red-400 text-xs mt-2 mr-3"></i>
@@ -170,7 +170,7 @@ const WhyTucSection = ({ whyTucSection }: WhyTucSectionProps) => {
                     </ul>
                   </div>
                 </div>
-              </section>
+              </div>
             </div>
           </div>
 

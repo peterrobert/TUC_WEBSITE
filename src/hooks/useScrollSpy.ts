@@ -22,7 +22,10 @@ export function useScrollSpy(
             setActiveId(id);
           }
         },
-        { threshold }
+        { 
+        rootMargin: "-40% 0px -40% 0px",
+        threshold: 0
+         }
       );
 
       observer.observe(element);
