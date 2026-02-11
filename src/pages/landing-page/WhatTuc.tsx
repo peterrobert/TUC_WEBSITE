@@ -1,7 +1,7 @@
 const WhatTuc = () => {
   return (
     <section
-      id="what-tuc-is"
+      id="what-tuc"
       className="py-12 sm:py-16 md:py-20 bg-gray-50  border-b border-cool-gray"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -35,7 +35,7 @@ const WhatIsTucSection = ({ whatIsTucSection }: WhatIsTucSectionProps) => {
   });
 
   return (
-    <section id="what-tuc-is-section" className="py-14 sm:py-20 px-4 sm:px-8">
+    <section id="definition" className="py-14 sm:py-20 px-4 sm:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="bg-white border border-cool-gray rounded-lg p-6 sm:p-10 md:p-12 pb-3.5">
           <h3 className="text-xl sm:text-2xl md:text-3xl font-serif font-bold text-dark-gray mb-4 sm:mb-6">
