@@ -46,13 +46,22 @@ const Navigation = () => {
   });
   const displayMobileNavItem = navigation.map((item) => {
     return (
-      <a
+      <NavLink
         key={item.label}
-        href={item.path}
-        className="text-medium-gray hover:text-deep-blue font-medium transition-colors"
+        to={item.path}
+        className={({ isActive }) =>
+          `
+    px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200
+    ${
+      isActive
+        ? "bg-deep-blue text-white"
+        : "text-medium-gray hover:text-deep-blue"
+    }
+  `
+        }
       >
         {item.label}
-      </a>
+      </NavLink>
     );
   });
 
