@@ -1,4 +1,3 @@
-import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./pages/landing-page";
@@ -10,20 +9,18 @@ import ProjectLandingPage from "./pages/system-pages/project";
 // -- Router setup for LandingPage and WorkFlowPage --
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/workflow" element={<WorkFlowPage />} />
-        <Route path="/about" element={<AboutPage />} />
-        {/* --- Systems --- */}
-        <Route path="/systems/top10" element={<Top10LandingPage />} />
-        <Route
-          path="/systems/suggestionBox"
-          element={<SuggestionBoxLandingPage />}
-        />
-        <Route path="/systems/project" element={<ProjectLandingPage />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/workflow" element={<WorkFlowPage />} />
+      <Route path="/about" element={<AboutPage />} />
+      {/* --- Systems --- */}
+      <Route path="/systems/top10" element={<Top10LandingPage />} />
+      <Route
+        path="/systems/suggestionBox"
+        element={<SuggestionBoxLandingPage />}
+      />
+      <Route path="/systems/project" element={<ProjectLandingPage />} />
+    </Routes>
   );
 }
 

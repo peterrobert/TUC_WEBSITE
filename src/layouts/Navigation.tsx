@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 const navigation = [
@@ -21,13 +22,26 @@ const Navigation = () => {
   const [open, setOpen] = useState(false);
   const displayNavItem = navigation.map((item) => {
     return (
-      <a
+      <NavLink
         key={item.label}
-        href={item.path}
-        className="text-medium-gray hover:text-deep-blue font-medium transition-colors cursor-pointer"
+        to={item.path}
+        className={({ isActive }) =>
+          `relative text-medium-gray hover:text-deep-blue font-medium transition-colors cursor-pointer ${
+            isActive ? "text-deep-blue" : ""
+          }`
+        }
       >
-        {item.label}
-      </a>
+        {({ isActive }) => (
+          <span
+            className={`relative inline-block ${isActive ? "text-deep-blue" : ""}`}
+          >
+            {item.label}
+            {isActive && (
+              <span className="absolute left-1/2 -translate-x-1/2 bottom-[-6px] w-1.5 h-1.5 bg-deep-blue rounded-full"></span>
+            )}
+          </span>
+        )}
+      </NavLink>
     );
   });
   const displayMobileNavItem = navigation.map((item) => {
@@ -57,9 +71,9 @@ const Navigation = () => {
         </div>
 
         {/* DESKTOP NAV */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <div className="hidden md:flex items-center space-x-8">
           {displayNavItem}
-        </nav>
+        </div>
 
         {/* MOBILE MENU BUTTON */}
         <button
