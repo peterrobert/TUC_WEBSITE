@@ -51,7 +51,7 @@ const Navigation = () => {
         {/* LOGO */}
         <div className="flex items-center space-x-3">
           <div className="rounded-md flex items-center justify-center">
-            <img src={logo} alt="Logo" className="w-5 h-5 sm:w-15 sm:h-15" />
+            <img src={logo} alt="Logo" className="w-15 h-15 sm:w-15 sm:h-15" />
             {/* <span className="text-white font-bold text-base sm:text-lg">T</span> */}
           </div>
         </div>
