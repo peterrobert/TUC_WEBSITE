@@ -27,7 +27,7 @@ const WhoIsBuildingSection = ({
 
   return (
     <section
-      id="who-is-building-section"
+      id="who-building"
       className="py-12 px-4 sm:px-6 md:px-8 lg:py-20 border-b border-cool-gray"
     >
       <div className="max-w-5xl mx-auto">

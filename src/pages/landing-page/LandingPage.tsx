@@ -25,10 +25,10 @@ const pageSections = [
   { id: "why-tuc-is-needed", label: "Why TUC Is Needed" },
   { id: "why-exists", label: "Why TUC Exists" },
   { id: "what-tuc", label: "What Is TUC" },
-  { id: "definition", label: "Definition" },
-  { id: "meets-you", label: "Access" },
-  { id: "who-building", label: "Builders" },
-  { id: "evolution", label: "Evolution" },
+  { id: "definition", label: "What TUC Is Not" },
+  { id: "where-you-are", label: "TUC Meets You Where You Are" },
+  { id: "who-building", label: "Who Is Building TUC" },
+  { id: "how-tuc-evolved", label: "How TUC Evolved" },
   { id: "how-it-works", label: "How It Works" },
   { id: "what-exists", label: "What Exists" },
   { id: "what-different", label: "Difference" },
@@ -62,9 +62,7 @@ const LandingPage = () => {
       <TUCEvolution />
       <HowTucWorkSection howTucWorksSection={howTucWorksSection} />
       <WhatExistsSection whatExistsSection={whatExistsSection} />
-      <WhatMakesDifferentSection
-      // whatMakesDifferentData={whatMakesDifferentData}
-      />
+      <WhatMakesDifferentSection />
       <WhatMakesPossibleSection whatMakesPossibleData={whatMakesPossibleData} />
       <TUCHowToEngage />
       <TUCQuietLanding />

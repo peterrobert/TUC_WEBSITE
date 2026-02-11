@@ -29,7 +29,7 @@ const evolutionPoints = [
 
 const TUCEvolution: React.FC = () => {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-white" id="how-tuc-evolved">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-serif font-bold text-dark-gray mb-4">
@@ -49,7 +49,7 @@ const TUCEvolution: React.FC = () => {
                 }`}
               >
                 {/* Timeline dot */}
-                <div className="flex-shrink-0 flex items-center justify-center sm:w-12">
+                <div className="shrink-0 flex items-center justify-center sm:w-12">
                   <div className="w-4 h-4 rounded-full bg-deep-blue mt-1 sm:mt-0"></div>
                   <div className="hidden sm:block flex-1 h-full border-l border-gray-300 mx-auto"></div>
                 </div>
