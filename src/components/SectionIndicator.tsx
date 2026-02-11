@@ -26,7 +26,13 @@ export default function SectionIndicator({
             <li key={section.id} className="group flex items-center gap-3">
               {/* Label */}
               <span
-                className={`tracking-wide transition-all duration-200 ${
+                onClick={() => {
+                  const el = document.getElementById(section.id);
+                  if (el) {
+                    el.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
+                className={`tracking-wide transition-all duration-200 cursor-pointer ${
                   isActive
                     ? "opacity-100 text-deep-blue font-bold text-sm"
                     : "opacity-100  group-hover:opacity-100 text-gray-400 text-xs"
@@ -38,7 +44,7 @@ export default function SectionIndicator({
               {/* Dot */}
               <a
                 href={`#${section.id}`}
-                className="relative flex items-center justify-center"
+                className="relative flex items-center justify-center cursor-pointer"
               >
                 <span
                   className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
