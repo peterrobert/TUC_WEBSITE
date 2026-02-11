@@ -16,7 +16,7 @@
 const WhatMakesDifferentSection = () => {
   return (
     <section
-      id="what-makes-different-section"
+      id="what-different"
       className="py-12 px-4 sm:px-6 md:px-8 lg:py-20 bg-white border-y border-cool-gray"
     >
       <div className="max-w-6xl mx-auto">

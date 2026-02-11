@@ -23,7 +23,7 @@ const WhatExistsSection = ({ whatExistsSection }: WhatExistsSectionProps) => {
   const { title, subtitle, components, footerNote } = whatExistsSection;
 
   return (
-    <section id="what-exists-section" className="py-14 sm:py-20 px-4 sm:px-8">
+    <section id="what-exists" className="py-14 sm:py-20 px-4 sm:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16">

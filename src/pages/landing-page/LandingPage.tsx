@@ -29,11 +29,11 @@ const pageSections = [
   { id: "where-you-are", label: "TUC Meets You Where You Are" },
   { id: "who-building", label: "Who Is Building TUC" },
   { id: "how-tuc-evolved", label: "How TUC Evolved" },
-  { id: "how-it-works", label: "How It Works" },
-  { id: "what-exists", label: "What Exists" },
-  { id: "what-different", label: "Difference" },
-  { id: "what-possible", label: "Possibility" },
-  { id: "engage", label: "Engage" },
+  { id: "how-it-works", label: "How TUC Works" },
+  { id: "what-exists", label: "What Already Exists" },
+  { id: "what-different", label: "What Makes TUC Different" },
+  { id: "what-possible", label: "What TUC Makes Possible" },
+  { id: "engage", label: "How You Can Engage" },
   { id: "landing", label: "Landing" },
 ];
 

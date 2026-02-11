@@ -91,7 +91,7 @@ const HowTucWorkSection = ({ howTucWorksSection }: HowTucWorkSection) => {
 
   return (
     <section
-      id="how-tuc-works-section"
+      id="how-it-works"
       className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8  border-y border-cool-gray"
     >
       <div className="max-w-6xl mx-auto">
