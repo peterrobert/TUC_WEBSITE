@@ -2,7 +2,10 @@ import React from "react";
 
 const TUCQuietLanding: React.FC = () => {
   return (
-    <section className="relative py-28 bg-gradient-to-b  via-gray-50 ">
+    <section
+      className="relative py-28 bg-gradient-to-b  via-gray-50"
+      id="landing-vision"
+    >
       <div className="max-w-4xl mx-auto px-6">
         {/* Soft Closing Card */}
         <div className="bg-white rounded-3xl shadow-sm border border-gray-200 px-8 sm:px-14 py-14 text-center mb-24">

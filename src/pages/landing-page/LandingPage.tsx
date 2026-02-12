@@ -34,7 +34,7 @@ const pageSections = [
   { id: "what-different", label: "What Makes TUC Different" },
   { id: "what-possible", label: "What TUC Makes Possible" },
   { id: "engage", label: "How You Can Engage" },
-  { id: "landing", label: "Landing" },
+  { id: "landing-vision", label: "TUC’s Vision" },
 ];
 
 const LandingPage = () => {
