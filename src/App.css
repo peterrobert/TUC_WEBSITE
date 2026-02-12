@@ -1,0 +1,25 @@
+/* Default: mobile first */
+.arrow-horizontal {
+    display: none;
+    /* hide desktop arrows on small screens */
+}
+
+.arrow-vertical {
+    display: inline-block;
+    /* show vertical arrows on small screens */
+    margin: 0.5rem 0;
+}
+
+/* Desktop (md+) */
+@media (min-width: 768px) {
+    .arrow-horizontal {
+        display: inline-block;
+        /* show horizontal arrows */
+        margin: 0 1rem;
+    }
+
+    .arrow-vertical {
+        display: none;
+        /* hide vertical arrows */
+    }
+}
