@@ -1,7 +1,7 @@
 import peterImage from "../../assets/peter.jpg";
 import jeffImage from "../../assets/jeff.jpeg";
 import estherImage from "../../assets/esther.jpg";
-
+import elbieImage from "../../assets/elbie.jpg";
 const TeamSection = () => {
   return (
     <section
@@ -364,6 +364,111 @@ const TeamSection = () => {
                   that TUC’s growth does not come at the expense of clarity,
                   inclusion, or trust—and that responsibility to affected
                   communities remains central as the system evolves.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* --- ELBIE ---- */}
+          <div
+            id="team-member-elbie"
+            className="bg-pale-blue border border-cool-gray rounded-lg p-6 sm:p-8 lg:p-10"
+          >
+            <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-4 mb-6 sm:mb-8">
+              <img
+                src={`${elbieImage}`}
+                alt="Elbie"
+                className="w-24 h-24 sm:w-32 sm:h-32 rounded-lg object-cover shrink-0"
+              />
+              <div className="text-center sm:text-left">
+                <h3 className="text-2xl sm:text-3xl font-serif font-bold text-dark-gray mb-1 sm:mb-2">
+                  Elbie
+                </h3>
+                <p className="text-lg sm:text-xl text-medium-gray font-medium mb-2 sm:mb-4">
+                  Full-Stack Engineer / Systems Architect
+                </p>
+                <div className="flex items-center justify-center sm:justify-start space-x-3 text-sm sm:text-base text-medium-gray">
+                  <span className="flex items-center">
+                    <i className="fa-solid fa-envelope mr-2 text-deep-blue"></i>
+                    elbie@tuc.system
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-4 sm:space-y-6">
+              <div>
+                <h4 className="text-lg sm:text-xl font-semibold text-dark-gray mb-1 sm:mb-2">
+                  Role & Responsibilities
+                </h4>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  Elbie is a key AlphaBeta contributor to TUC, playing a central
+                  and critical role in shaping the system’s technical
+                  foundations and backend architecture—particularly as TUC moved
+                  into POC2. His work focuses on the technical viability of
+                  TUC’s coordination layer, ensuring that conceptual system
+                  design can function, scale, and remain coherent beneath the
+                  surface.
+                </p>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  He is deeply involved in translating abstract system goals
+                  into concrete engineering decisions, serving as a bridge
+                  between architectural intent and executable reality. Through
+                  hands-on development, extensive iteration, and structured
+                  brainstorming, Elbie helps stress-test assumptions, clarify
+                  dependencies, and surface architectural constraints early—when
+                  they are cheapest and safest to address.
+                </p>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  Elbie’s role is especially important in anticipating
+                  second-order effects: how technical decisions made today will
+                  affect scalability, maintainability, and system behavior as
+                  contributors, use cases, and complexity increase. His
+                  contributions help prevent fragility by identifying risks
+                  before they harden into technical debt.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-lg sm:text-xl font-semibold text-dark-gray mb-1 sm:mb-2">
+                  Philosophy
+                </h4>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  Elbie believes that resilient systems are built through
+                  structure, foresight, and honest constraint-mapping—not
+                  heroics or reactive fixes. He values architectural clarity and
+                  modularity as prerequisites for collective development,
+                  especially in systems intended to evolve across many hands and
+                  contexts.
+                </p>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  He approaches engineering as a form of stewardship, where
+                  technical choices must remain legible to future contributors
+                  and adaptable to changing conditions. For Elbie, good
+                  architecture is not just functional—it protects long-term
+                  integrity by making complexity visible and manageable.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-lg sm:text-xl font-semibold text-dark-gray mb-1 sm:mb-2">
+                  Background
+                </h4>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  Elbie brings experience in full-stack development with a
+                  strong emphasis on systems architecture and backend logic. His
+                  perspective is shaped by working in environments where early
+                  design decisions carry long-term consequences, and where
+                  preventing failure is often more valuable than accelerating
+                  delivery.
+                </p>
+                <p className="text-base sm:text-md text-medium-gray leading-relaxed pb-1">
+                  His work has been causally impactful in moving TUC from ideas
+                  and early prototypes toward a functioning, resilient
+                  system—one capable of supporting long-term evolution without
+                  compromising coherence or integrity. As TUC continues to
+                  mature, Elbie’s contributions remain central to ensuring that
+                  the system can grow responsibly rather than collapse under its
+                  own complexity.
                 </p>
               </div>
             </div>
