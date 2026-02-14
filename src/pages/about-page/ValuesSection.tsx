@@ -5,7 +5,7 @@ const ValuesSection = () => {
       className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8"
     >
       <div className="max-w-6xl mx-auto">
-        <div className="mb-12 sm:mb-16">
+        <div className="mb-12 sm:mb-16 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-dark-gray mb-2 sm:mb-4">
             Values
           </h2>
