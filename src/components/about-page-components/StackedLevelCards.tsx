@@ -10,17 +10,17 @@ type CardData = {
 const cards: CardData[] = [
   {
     id: 1,
-    title: "No Shortcuts",
+    title: "Plain & Human",
     icon: "fa-shield-halved",
     description:
-      "We don't compromise principles for speed. If a feature would undermine integrity, we don't build it—regardless of market pressure or competitive dynamics.",
+      "Integrity isn’t something we promise to do later—it’s built into how TUC works from the start. The system is designed so that it’s hard to hide information, take advantage of others, or claim credit unfairly. Instead of relying on trust alone, TUC is structured to make fair behavior the default and harmful behavior difficult. This means people don’t have to constantly watch for bad actors—the system itself helps prevent problems before they grow.",
   },
   {
     id: 2,
-    title: "Radical Transparency",
+    title: "Clear & Structural",
     icon: "fa-eye",
     description:
-      "Decisions, reasoning, and changes are documented publicly. If we can't explain why we did something, we probably shouldn't have done it.",
+      "Integrity in TUC is not a goal or aspiration—it’s a design rule. Rather than asking people to “do the right thing,” the system is intentionally built so that extraction, hidden decision-making, and unfair attribution are structurally limited. These behaviors aren’t just discouraged; they are made difficult, visible, or impractical by design. This approach reduces reliance on enforcement after harm occurs and instead focuses on preventing harm through transparency, shared visibility, and traceable contributions.",
   },
   {
     id: 3,
