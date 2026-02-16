@@ -1,3 +1,5 @@
+import StackedLevelCards from "../../components/about-page-components";
+
 const ProjectSection = () => {
   return (
     <section
@@ -47,7 +49,8 @@ const ProjectSection = () => {
             just discouraged.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 mt-6 sm:mt-8">
+          {/* --- Stacked Cards Components */}
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 mt-6 sm:mt-8">
             <div className="bg-pale-blue rounded-lg p-4 sm:p-6 border border-cool-gray">
               <div className="flex items-start space-x-3 sm:space-x-4">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-md flex items-center justify-center shrink-0">
@@ -119,7 +122,8 @@ const ProjectSection = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+          <StackedLevelCards />
 
           <div className="border-t border-white border-opacity-20 mt-6 sm:mt-10 pt-4 sm:pt-8">
             <p className="text-base sm:text-lg md:text-xl leading-relaxed italic">
