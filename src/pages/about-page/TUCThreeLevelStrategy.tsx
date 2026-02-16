@@ -39,7 +39,7 @@ const LevelCard: React.FC<LevelProps> = ({
 
 const TUCThreeLevelStrategy: React.FC = () => {
   return (
-    <section className="w-full bg-neutral-50 py-16 px-4 md:px-10 lg:px-20">
+    <section className="w-full bg-neutral-50 py-16 px-4 md:px-10 lg:px-20 border-y border-cool-gray">
       {/* Header */}
       <div className="max-w-5xl mx-auto mb-14 text-center">
         <h2
