@@ -24,17 +24,10 @@ const cards: CardData[] = [
   },
   {
     id: 3,
-    title: "Fair Attribution",
+    title: "Architectural & Explicit",
     icon: "fa-handshake",
     description:
-      "Credit flows to those who create value. The system tracks contributions and ensures recognition isn't controlled by gatekeepers.",
-  },
-  {
-    id: 4,
-    title: "Patient Building",
-    icon: "fa-clock",
-    description:
-      "We build at the pace our capacity allows. No artificial urgency, no pressure to scale before we're ready, no compromising quality for speed.",
+      "Integrity within TUC functions as an architectural constraint, not a cultural preference. The system is designed so that common failure modes—such as value extraction without contribution, opaque control, and misattribution of work—are structurally constrained at the system level. Rather than relying on policies, promises, or centralized oversight, TUC embeds these safeguards directly into how information, decisions, and contributions flow. As a result, integrity is not dependent on individual behavior alone. It emerges from the system itself, reducing systemic risk, limiting abuse vectors, and enabling long-term trust without requiring constant intervention.",
   },
 ];
 
