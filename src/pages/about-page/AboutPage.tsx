@@ -8,12 +8,14 @@ import HeroSection from "./HeroSection";
 import HowWeWorkSection from "./HowWeWorkSection";
 import ProjectSection from "./ProjectSection";
 import TeamSection from "./TeamSection";
+import TUCThreeLevelStrategy from "./TUCThreeLevelStrategy";
 import ValuesSection from "./ValuesSection";
 import WhatWeDontDoSection from "./WhatWeDontDoSection";
 import WhyTransparencyMattersSection from "./WhyTransparencyMattersSection";
 
 const pageSections = [
   { id: "about-hero-section", label: "Intro" },
+  { id: "tuc-3-level-strategy", label: "TUC’s 3-Level Strategy" },
   { id: "the-project-section", label: "The Project" },
   { id: "the-team-section", label: "The Team" },
   { id: "values-section", label: "Values" },
@@ -29,6 +31,7 @@ const AboutPage = () => {
     <>
       <SectionIndicator sections={pageSections} />
       <HeroSection />
+      <TUCThreeLevelStrategy />
       <ProjectSection />
       <TeamSection />
       <ValuesSection />
