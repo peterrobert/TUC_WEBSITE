@@ -9,7 +9,7 @@ const HowWeWorkSection = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-dark-gray mb-2 sm:mb-4">
             How We Work
           </h2>
-          <div className="w-16 sm:w-20 h-1 bg-dark-cyan mb-4 sm:mb-8"></div>
+
           <p className="text-base sm:text-lg text-medium-gray max-w-full sm:max-w-3xl mx-auto text-center">
             Our process reflects our values. Slow, transparent, and deliberate.
           </p>

@@ -21,25 +21,25 @@ const ContactSection = () => {
             {[
               {
                 title: "General Inquiries",
-                email: "hello@tuc.system",
+                email: "jmack@ywcbe.com",
                 icon: "fa-envelope",
                 color: "text-deep-blue",
               },
               {
                 title: "Feedback",
-                email: "feedback@tuc.system",
+                email: "jmack@ywcbe.com",
                 icon: "fa-comments",
                 color: "text-deep-blue",
               },
               {
                 title: "Documentation",
-                email: "docs@tuc.system",
+                email: "jmack@ywcbe.com",
                 icon: "fa-book",
                 color: "text-dark-cyan",
               },
               {
                 title: "Technical",
-                email: "tech@tuc.system",
+                email: "jmack@ywcbe.com",
                 icon: "fa-code",
                 color: "text-dark-cyan",
               },
