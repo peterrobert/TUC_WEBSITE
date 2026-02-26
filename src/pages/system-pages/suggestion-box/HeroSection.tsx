@@ -1,6 +1,9 @@
 const HeroSection = () => {
   return (
-    <section id="hero-section" className="bg-white border-b border-cool-gray">
+    <section
+      id="sys-sb-hero-section"
+      className="bg-white border-b border-cool-gray"
+    >
       <div className="max-w-360 mx-auto px-4 sm:px-6 md:px-12 py-16 sm:py-20 md:py-24">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-block px-3 sm:px-4 py-1 sm:py-1.5 bg-light-surface rounded-full text-[10px] sm:text-xs font-semibold text-deep-blue uppercase tracking-wider mb-4 sm:mb-6">

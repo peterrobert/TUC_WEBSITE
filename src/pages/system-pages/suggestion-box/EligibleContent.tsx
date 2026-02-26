@@ -1,6 +1,6 @@
 const EligibleContent = () => {
   return (
-    <section id="eligible-content" className="py-14 sm:py-16 md:py-20">
+    <section id="sys-sb-eligible-content" className="py-14 sm:py-16 md:py-20">
       <div className="max-w-360 mx-auto px-4 sm:px-6 md:px-12">
         {/** Section Heading **/}
         <h2 className="font-serif text-3xl sm:text-4xl md:text-4xl font-bold text-dark-text text-center mb-4">

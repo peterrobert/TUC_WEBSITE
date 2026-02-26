@@ -1,6 +1,6 @@
 const SystemOutputSection = () => {
   return (
-    <section id="system-outputs" className="py-20">
+    <section id="sys-sb-system-output" className="py-20">
       <div className="max-w-360 mx-auto px-4 sm:px-6 md:px-12">
         <h2 className="font-serif text-3xl sm:text-4xl font-bold text-dark-text text-center mb-6">
           What The Suggestion Box Produces

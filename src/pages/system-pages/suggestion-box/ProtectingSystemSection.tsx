@@ -1,7 +1,7 @@
 const ProtectingSystemSection = () => {
   return (
     <section
-      id="integrity-safeguards"
+      id="sys-sb-protecting-system"
       className="py-16 sm:py-20 bg-white border-y border-cool-gray"
     >
       <div className="max-w-360 mx-auto px-4 sm:px-6 md:px-12">

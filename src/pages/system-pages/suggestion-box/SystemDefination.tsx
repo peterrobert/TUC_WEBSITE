@@ -1,7 +1,7 @@
 const SystemDefination = () => {
   return (
     <section
-      id="system-definition"
+      id="sys-sb-system-definition"
       className="py-14 sm:py-16 md:py-20 bg-white border-y border-cool-gray"
     >
       <div className="max-w-360 mx-auto px-4 sm:px-6 md:px-12">

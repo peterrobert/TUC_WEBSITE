@@ -1,7 +1,7 @@
 const SuggestionConnection = () => {
   return (
     <section
-      id="ecosystem-integration"
+      id="sys-sb-suggestion-connection"
       className="py-16 sm:py-20 border-y border-cool-gray bg-white"
     >
       <div className="max-w-360 mx-auto px-4 sm:px-6 md:px-12">
