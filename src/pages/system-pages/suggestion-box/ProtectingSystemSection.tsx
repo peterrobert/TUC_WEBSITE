@@ -5,9 +5,14 @@ const ProtectingSystemSection = () => {
       className="py-16 sm:py-20 bg-white border-y border-cool-gray"
     >
       <div className="max-w-360 mx-auto px-4 sm:px-6 md:px-12">
-        <h2 className="font-serif text-3xl sm:text-4xl font-bold text-dark-text text-center mb-12">
+        <h2 className="font-serif text-3xl sm:text-4xl font-bold text-dark-text text-center mb-6">
           Protecting System Fairness
         </h2>
+
+        <p className="text-center text-medium-text max-w-3xl mx-auto mb-12">
+          The Suggestion Box is designed to reduce bias while remaining open and
+          auditable.
+        </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Automated Spotlighting */}
@@ -19,8 +24,7 @@ const ProtectingSystemSection = () => {
               Automated Spotlighting & Sorting
             </h3>
             <p className="text-medium-text text-sm leading-relaxed">
-              Algorithm-driven prioritization removes human bias and ensures
-              fair visibility for all suggestions
+              Algorithm-driven prioritization supports fair visibility
             </p>
           </div>
 
@@ -33,8 +37,8 @@ const ProtectingSystemSection = () => {
               Behavior Anomaly Detection
             </h3>
             <p className="text-medium-text text-sm leading-relaxed">
-              AI monitors for suspicious patterns like vote manipulation or spam
-              submissions
+              Detection monitors suspicious patterns such as manipulation or
+              spam
             </p>
           </div>
 
@@ -47,8 +51,7 @@ const ProtectingSystemSection = () => {
               Trust-Weighted Evaluation
             </h3>
             <p className="text-medium-text text-sm leading-relaxed">
-              Reputation and contribution history influence voting weight to
-              reward quality participation
+              Contribution history influences voting weight
             </p>
           </div>
 
@@ -62,9 +65,16 @@ const ProtectingSystemSection = () => {
             </h3>
             <p className="text-medium-text text-sm leading-relaxed">
               Rate limiting, duplicate detection, and coordinated behavior
-              alerts protect system integrity
+              alerts protect integrity
             </p>
           </div>
+        </div>
+
+        <div className="text-center mt-12 pt-6 border-t border-cool-gray">
+          <p className="text-dark-text font-semibold italic">
+            Automation supports the system while human judgment remains visible
+            and accountable.
+          </p>
         </div>
       </div>
     </section>
