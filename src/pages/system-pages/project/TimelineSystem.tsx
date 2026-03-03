@@ -19,7 +19,7 @@ const TimelineSystem = () => {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-deep-blue bg-opacity-10 rounded-lg flex items-center justify-center">
+                  <div className="shrink-0 w-10 h-10 bg-deep-blue bg-opacity-10 rounded-lg flex items-center justify-center">
                     <i className="fa-solid fa-timeline text-white"></i>
                   </div>
                   <div>
@@ -33,7 +33,7 @@ const TimelineSystem = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-dark-cyan bg-opacity-10 rounded-lg flex items-center justify-center">
+                  <div className="shrink-0 w-10 h-10 bg-dark-cyan bg-opacity-10 rounded-lg flex items-center justify-center">
                     <i className="fa-solid fa-clock text-white"></i>
                   </div>
                   <div>
@@ -47,7 +47,7 @@ const TimelineSystem = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-deep-blue bg-opacity-10 rounded-lg flex items-center justify-center">
+                  <div className="shrink-0 w-10 h-10 bg-deep-blue bg-opacity-10 rounded-lg flex items-center justify-center">
                     <i className="fa-solid fa-calendar-days text-white"></i>
                   </div>
                   <div>
