@@ -34,6 +34,8 @@ const pageSections = [
   { id: "sys-project-timeline-system", label: "Timeline System" },
   { id: "sys-project-timeline-components", label: "Timeline Components" },
   { id: "sys-project-historical-timeline", label: "Historical Timeline" },
+  { id: "sys-project-financial-module", label: "Financial Module Integration" },
+  { id: "sys-project-systems-integration", label: "Systems Integration" },
 ];
 
 const ProjectLandingPage = () => {
@@ -49,7 +51,6 @@ const ProjectLandingPage = () => {
       <MasterDocumentOutputs />
       <TimelineSystem />
       <TimelineComponents />
-
       <HistoricalTimeline />
       <FinancialModule />
       <SystemsIntegration />
