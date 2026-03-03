@@ -27,6 +27,10 @@ const ProblemSection = () => {
                 contribution tracking, remix attribution, and continuous ranking
                 updates that reflect real participation and long-term value.
               </p>
+              <p>
+                Traditional systems reward attention. Top10 rewards contribution
+                depth and sustained impact.
+              </p>
             </div>
 
             <div className="pt-3 sm:pt-4 space-y-3">

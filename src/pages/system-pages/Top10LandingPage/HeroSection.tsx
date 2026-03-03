@@ -21,14 +21,19 @@ const HeroSection = () => {
           <div className="max-w-3xl mx-auto">
             <p className="text-dark-gray mb-4 sm:mb-6 leading-relaxed text-[clamp(1rem,2vw,1.125rem)]">
               The TUC Top10 System transforms participation into measurable
-              impact. It surfaces high-value ideas, projects, and contributions
-              using transparent ranking logic, regenerative scoring, and
-              collaboration-first design.
+              impact. Surfaces high-value ideas using transparent scoring,
+              contribution tracking, and structured promotion logic.
             </p>
 
             <p className="text-medium-gray italic leading-relaxed text-sm sm:text-base">
               Not a popularity contest — a structured engine for visibility,
               recognition, and coordinated progress.
+            </p>
+
+            <p className="text-medium-gray italic leading-relaxed text-sm sm:text-base pt-4">
+              A 10-level structured visibility pipeline where ideas compete for
+              limited ranked slots and advance based on contribution-weighted
+              scoring.
             </p>
           </div>
 

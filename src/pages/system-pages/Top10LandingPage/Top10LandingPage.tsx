@@ -25,23 +25,14 @@ const Top10LandingPage = () => {
   return (
     <>
       <SectionIndicator sections={pageSections} />
-      {/* --- Hero Section ---- */}
       <HeroSection />
-      {/* ---- Problem section --- */}
       <ProblemSection />
-      {/* --- system defination --- */}
       <SystemDefination />
-      {/* --- Eligible section --- */}
       <EligibleSection />
-      {/* --- Ranking Flow Section --- */}
       <RankingFlowSection />
-      {/* --- Transparency ---- */}
       <TransparencySection />
-      {/* --- System OutPut --- */}
       <SystemOutPut />
-      {/* ---- ecosystem ---- */}
       <EcosystemSection />
-      {/* --- Footer --- */}
       <Footer footerData={footerData} />
     </>
   );
