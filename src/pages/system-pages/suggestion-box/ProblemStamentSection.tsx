@@ -28,9 +28,9 @@ const ProblemStamentSection = () => {
               </div>
 
               <p className="font-semibold text-dark-text">
-                The TUC Suggestion Box addresses these failures through
-                trustless, regenerative feedback loops, real-time engagement,
-                real-time analytics, and permissionless participation.
+                The TUC Suggestion Box addresses these failures by making
+                suggestion intake transparent, discussion visible,
+                prioritization traceable, and handoffs to execution structured.
               </p>
             </div>
 

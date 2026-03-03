@@ -19,10 +19,10 @@ const HeroSection = () => {
           </p>
 
           <p className="text-medium-text mb-4 sm:mb-6 text-base sm:text-lg md:text-lg leading-relaxed max-w-3xl mx-auto">
-            The TUC Suggestion Box transforms feedback into action. It is a
-            dynamic, trustless, and regenerative system that empowers
-            communities to submit, evaluate, and evolve ideas—while keeping
-            progress visible and participation fair.
+            The TUC Suggestion Box transforms community input into coordinated
+            action. It is a transparent intake and coordination layer that
+            collects ideas, organizes discussion, and moves suggestions toward
+            evaluation and execution.
           </p>
 
           <p className="text-medium-text italic text-sm sm:text-base md:text-base">
