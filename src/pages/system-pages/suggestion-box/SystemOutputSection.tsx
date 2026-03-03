@@ -22,7 +22,8 @@ const SystemOutputSection = () => {
                 Live Prioritized Suggestions List
               </h3>
               <p className="text-medium-text text-sm sm:text-base leading-relaxed">
-                Ranking of active suggestions based on engagement and impact
+                Dynamic prioritization of active suggestions based on engagement
+                signals.
               </p>
             </div>
           </div>
