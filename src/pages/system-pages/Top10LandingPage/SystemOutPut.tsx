@@ -9,6 +9,12 @@ const SystemOutPut = () => {
           <h2 className="text-4xl font-serif font-bold text-dark-gray mb-4">
             What The System Produces
           </h2>
+          <div className="text-medium-gray leading-relaxed space-y-4 text-sm sm:text-base max-w-3xl mx-auto">
+            <p>
+              The primary output of the Top10 system is ordered visibility based
+              on measurable contribution signals.
+            </p>
+          </div>
         </div>
         <div className="space-y-4">
           <div className="bg-white p-6 rounded-lg border-l-4 border-deep-blue shadow-sm hover:shadow-md transition-shadow">

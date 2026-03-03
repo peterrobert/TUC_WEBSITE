@@ -24,6 +24,13 @@ const SystemDefination = () => {
             It functions as a discovery engine that highlights what matters most
             while preserving fairness, attribution, and system integrity.
           </p>
+          <p>
+            Top10 operates as a structured promotion ladder. Each level contains
+            limited ranked positions. When an idea’s weighted score exceeds the
+            lowest-ranked item in a level, it displaces it and advances upward.
+            Rankings are continuously recalculated to reflect real contribution
+            activity.
+          </p>
         </div>
 
         <div className="mt-8 sm:mt-10 md:mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">

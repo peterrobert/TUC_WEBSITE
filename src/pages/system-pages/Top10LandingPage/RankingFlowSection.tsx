@@ -147,6 +147,13 @@ const RankingFlowSection = () => {
             </div>
           </div>
         </div>
+        <p className="text-center my-8">
+          Top10 operates as a structured promotion ladder. Each level contains
+          limited ranked positions. When an idea’s weighted score exceeds the
+          lowest-ranked item in a level, it displaces it and advances upward.
+          Rankings are continuously recalculated to reflect real contribution
+          activity.
+        </p>
       </div>
     </section>
   );
