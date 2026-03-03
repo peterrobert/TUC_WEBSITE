@@ -1,6 +1,6 @@
 const HistoricalTimeline = () => {
   return (
-    <section id="historical-timeline" className="py-20 bg-white">
+    <section id="sys-project-historical-timeline" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-8">
         <div className="bg-linear-to-r from-pale-blue to-white rounded-2xl p-12 border border-cool-gray">
           <div className="max-w-4xl">

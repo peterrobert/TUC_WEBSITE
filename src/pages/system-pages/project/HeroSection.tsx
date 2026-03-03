@@ -1,6 +1,9 @@
 const HeroSection = () => {
   return (
-    <section id="hero-section" className="bg-white border-b border-cool-gray">
+    <section
+      id="sys-project-hero-section"
+      className="bg-white border-b border-cool-gray"
+    >
       <div className="max-w-7xl mx-auto px-8 py-24">
         <div className="max-w-4xl">
           <div className="inline-flex items-center space-x-2 bg-light-gray px-4 py-2 rounded-full mb-6">

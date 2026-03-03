@@ -1,6 +1,6 @@
 const StructuredInputExpansion = () => {
   return (
-    <section id="structured-input-expansion" className="py-20">
+    <section id="sys-project-structured-input-expansion" className="py-20">
       <div className="max-w-7xl mx-auto px-8">
         <div className="mb-12">
           <span className="text-sm font-semibold text-dark-cyan uppercase tracking-wider">

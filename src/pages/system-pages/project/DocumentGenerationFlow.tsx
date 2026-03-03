@@ -1,6 +1,9 @@
 const DocumentGenerationFlow = () => {
   return (
-    <section id="document-generation-flow" className="py-20 bg-white">
+    <section
+      id="sys-project-document-generation-flow"
+      className="py-20 bg-white"
+    >
       <div className="max-w-7xl mx-auto px-8">
         <div className="text-center mb-12">
           <span className="text-sm font-semibold text-dark-cyan uppercase tracking-wider">

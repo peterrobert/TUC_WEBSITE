@@ -1,6 +1,6 @@
 const TimelineSystem = () => {
   return (
-    <section id="timeline-system" className="py-20 bg-white">
+    <section id="sys-project-timeline-system" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-8">
         <div className="grid grid-cols-2 gap-16 items-center">
           <div id="timeline-content">

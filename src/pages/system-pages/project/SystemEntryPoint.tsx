@@ -1,6 +1,6 @@
 const SystemEntryPoint = () => {
   return (
-    <section id="system-entry-point" className="py-20">
+    <section id="sys-project-system-entry-point" className="py-20">
       <div className="max-w-7xl mx-auto px-8">
         <div className="grid grid-cols-2 gap-16">
           <div id="entry-point-content">

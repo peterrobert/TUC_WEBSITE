@@ -1,6 +1,6 @@
 const CorePurpose = () => {
   return (
-    <section id="core-purpose" className="py-20 bg-white">
+    <section id="sys-project-core-purpose" className="py-20 bg-white">
       <div className="max-w-5xl mx-auto px-8">
         <div className="text-center mb-12">
           <span className="text-sm font-semibold text-dark-cyan uppercase tracking-wider">
