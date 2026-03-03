@@ -136,7 +136,7 @@ const landingPageData = {
         "status": "MVP",
         "statusType": "active",
         "description": "A framework for surfacing the most valuable ideas, insights, or contributions over time.",
-        "progressLabel": "In Design Phase",
+        "progressLabel": "Architected — Entering Build Phase",
         "icon": "fa-circle-dot",
         "iconColor": "medium-gray",
          "url": "/systems/top10"
