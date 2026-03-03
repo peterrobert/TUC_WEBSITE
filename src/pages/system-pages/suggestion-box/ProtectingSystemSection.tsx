@@ -48,10 +48,11 @@ const ProtectingSystemSection = () => {
               <i className="fa-solid fa-balance-scale text-white text-2xl"></i>
             </div>
             <h3 className="font-semibold text-lg text-dark-text mb-2">
-              Trust-Weighted Evaluation
+              Contribution-Aware Prioritization
             </h3>
             <p className="text-medium-text text-sm leading-relaxed">
-              Contribution history influences voting weight
+              Participation history informs visibility without overriding open
+              access.
             </p>
           </div>
 
